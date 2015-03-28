@@ -1,0 +1,185 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Problem A. Magic Trick
+
+** Problem
+
+Recently you went to a magic show. You were very impressed by one of the tricks,
+so you decided to try to figure out the secret behind it!
+
+
+*** Start
+
+**** The magician starts by _arranging 16_ cards in a square grid: 
+_4 rows of cards, with 4 cards in each row_.
+
+***** Each card has a _different_ number from _1 to 16_ written on the side that is showing.
+
+**** Next, the magician asks a volunteer to _choose a card_, 
+
+**** and to tell him which _row_ that card is in.
+
+
+*** Finally
+
+**** Finally, the magician _arranges_ the _16_ cards in a square grid again, 
+possibly in a _different_ order. 
+
+**** Once again, he asks the volunteer which _row_ her card is in. 
+
+**** With only the answers to these two questions, the magician then correctly determines 
+which card the volunteer chose. Amazing, right?
+
+
+*** The program will be given the _two arrangements of the cards_, and 
+
+**** _the volunteer's answers_to the _two questions_: 
+
+***** _the row number of the selected card in the first arrangement_, 
+
+***** _the row number of the selected card in the second arrangement_. 
+
+The rows are numbered _1 to 4_ from _top to bottom_.
+
+
+*** Your program should determine 
+
+**** _which card the volunteer chose_; 
+
+**** or _if there is more than one card the volunteer might have chosen_
+(the magician did a bad job); 
+
+**** or _if there's no card consistent with the volunteer's answers_
+(the volunteer cheated).
+
+
+** Input
+
+*** The first line of the input gives the number of test cases, T. 
+T test cases follow.
+
+**** Each test case starts with a line containing an integer: 
+the answer to the first question. 
+
+**** The next 4 lines represent the first arrangement of the cards: 
+each contains 4 integers, separated by a single space. 
+
+**** The next line contains the answer to the second question, 
+
+**** and the following four lines contain the second arrangement in the same format.
+
+
+** Output
+
+*** For each test case, output one line containing "Case #x: y", 
+where x is the test case number (starting from 1).
+
+**** If there is a single card the volunteer could have chosen,
+y should be the number on the card. 
+
+**** If there are multiple cards the volunteer could have chosen,
+y should be "Bad magician!", without the quotes. 
+
+**** If there are no cards consistent with the volunteer's answers,
+y should be "Volunteer cheated!", without the quotes.
+
+
+The text needs to be exactly right, so consider copying/pasting it from here.
+
+
+** Sample
+
+*** Input
+
+3                _T_
+
+                 _First_Test_Case_
+                 
+2                _The_answer_to_the_first_question_
+1 2 3 4          _The first arrangement_
+5 6 7 8          _
+9 10 11 12       _
+13 14 15 16      _ 
+3                _The_answer_to_the_second_question_
+1 2 5 4          _The second arrangement_
+3 11 6 15        _
+9 10 7 12        _
+13 14 8 16       _
+
+2
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+2
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+2
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+3
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+
+*** Output
+
+Case #1: 7
+Case #2: Bad magician!
+Case #3: Volunteer cheated!
+
+
