@@ -1,0 +1,177 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Problem B. Cookie Clicker Alpha
+
+** Introduction
+
+*** _Cookie Clicker_ 
+
+It is a Javascript game by Orteil, where players _click on a picture of a giant cookie_. 
+
+**** Clicking on the giant cookie gives them cookies.
+
+**** They can spend those cookies to buy buildings. 
+Those buildings help them get even more cookies. 
+
+Like this problem, the game is very cookie-focused.
+
+This problem has a similar idea, but it does not assume you have played Cookie Clicker.
+Please don't go play it now: it might be a long time before you come back. 
+
+
+** Problem
+
+*** In this problem, you start with _0_ cookies. 
+
+*** You gain cookies at a rate of _2_ cookies per second, by clicking on a giant cookie. 
+
+*** Any time you have at least _C_ cookies, you can buy a cookie farm. 
+
+*** Every time you buy a cookie farm, it costs you _C_ cookies and gives you an extra _F_ 
+cookies per second.
+
+
+*** Once you have _X_ cookies that you _haven't spent on_ farms, you _win_! 
+
+
+*** Figure out _how long_ it will take you to _win_ if you use the _best possible strategy_. 
+
+
+** Example
+
+Suppose _C_=500.0, _F_=4.0 and _X_=2000.0. Here's how the _best possible strategy_ plays out: 
+
+
+*** 1. You start with _0_ cookies, but producing _2_ cookies per second.
+
+*** 2. After _250_ seconds, you will have _C=500_ cookies and can buy a farm that produces
+_F=4_ cookies per second.
+
+*** 3. After buying the farm, you have _0_ cookies, and your total cookie production is _6_
+cookies per second.
+
+*** 4. The next farm will cost _500_ cookies, which you can buy after about _83.3333333_ seconds.
+
+*** 5. After buying your second farm, you have _0_ cookies, and your total cookie production is
+ _10_ cookies per second.
+
+*** 6. Another farm will cost _500_ cookies, which you can buy after _50_ seconds.
+
+*** 7. After buying your third farm, you have _0_ cookies, and your total cookie production 
+is _14_ cookies per second.
+
+*** 8. Another farm would cost _500_ cookies, but it actually makes sense not to buy it: instead
+ you can just wait until you have _X=2000_ cookies, which takes about _142.8571429_ seconds.
+
+*** 9. Total time: 250 + 83.3333333 + 50 + 142.8571429 = 526.1904762 seconds. 
+
+
+Notice that you _get cookies continuously_: so 0.1 seconds after the game starts you'll
+ have 0.2 cookies, and π seconds after the game starts you'll have 2π cookies. 
+
+
+** Input
+
+*** The first line of the input gives the number of test cases, T.
+T lines follow. 
+
+
+*** Each line contains three space-separated real-valued numbers: C, F and X,
+whose meanings are described earlier in the problem statement. 
+
+*** _C_, _F_ and _X_ will each consist of at least 1 digit followed by 1 decimal
+point followed by from 1 to 5 digits. There will be _no leading zeroes_. 
+
+
+** Output
+
+For each test case, output one line containing "Case #x: y", where x is the test
+ case number (starting from 1) and y is the minimum number of seconds it takes 
+before you can have X delicious cookies. 
+
+We recommend outputting _y to 7 decimal places_, but it is not required. y will be
+considered correct if it is close enough to the correct number: within an absolute
+or relative error of 10-6. See the FAQ for an explanation of what that means, and
+what formats of real numbers we accept. 
+
+
+** Limits
+
+1 ≤ T ≤ 100.
+
+
+*** Small dataset
+
+1 ≤ C ≤ 500.
+1 ≤ F ≤ 4.
+1 ≤ X ≤ 2000.
+
+
+*** Large dataset
+
+1 ≤ C ≤ 10000.
+1 ≤ F ≤ 100.
+1 ≤ X ≤ 100000.
+
+
+** Sample
+
+*** Input 
+
+
+4                                _Total test cases_
+
+30.0 1.0 2.0                     __C__F__X__
+
+30.0 2.0 100.0                   _
+30.50000 3.14159 1999.19990      _
+500.0 4.0 2000.0                 _
+
+
+
+*** Output
+
+Case #1: 1.0000000
+Case #2: 39.1666667
+Case #3: 63.9680013
+Case #4: 526.1904762
+
+
+
