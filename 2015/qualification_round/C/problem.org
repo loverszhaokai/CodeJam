@@ -1,0 +1,123 @@
+* Problem C. Dijkstra
+
+
+** Problem
+
+|   | 1 | i  | j  | k  |
+|---+---+----+----+----|
+| 1 | 1 | i  | j  | k  |
+| i | i | -1 | k  | -j |
+| j | j | -k | -1 | i  |
+| k | k | j  | -i | -1 |
+
+*** 1
+
+For example, to multiply  _i by j_ , look in the row for i and the column for j to find that the answer is _k_. 
+To multiply  _j by i_ , look in the row for j and the column for i to find that the answer is _-k_.
+
+
+*** 2 not cimmutative
+
+As you can see from the above examples, the quaternions are  _not commutative_  -- 
+that is, there are some a and b for which  _a * b != b * a_ . 
+
+*** 3 associative
+
+However they are  _associative_  -- for any a, b, and c, it's true that  _a * (b * c) = (a * b) * c_ .
+
+*** 4 negative signs
+
+_Negative signs_  before quaternions work as they normally do -- 
+
+for any quaternions a and b, it's true that  _-a * -b = a * b_ , and  _-a * b = a * -b = -(a * b)_ .
+
+
+*** You want to argue that your _misspelling_ was equivalent to the correct spelling  _ijk_ 
+
+by showing that you can split your string of  _is_ ,  _js_ , and  _ks_  in two places,
+
+forming three substrings, such that the 
+
+_leftmost substring_ reduces (under quaternion multiplication) to _i_ , 
+_middle substring_ reduces to  _j_ , 
+_right substring_ reduces to  _k_ . 
+
+(For example, jij would be interpreted as j * i * j; j * i is -k, and -k * j is i, so jij reduces to i.) 
+If this is possible, you will get your point back. 
+
+**** Can you find a way to do it?
+
+** Input
+
+The first line of the input gives the number of test cases, T.
+T test cases follow. 
+
+Each consists of one line with two space-separated integers  _L_  and  _X_ ,
+followed by another line with  _L_  characters,  _all of which are i, j, or k_ . 
+
+Note that _the string never contains negative signs_ ,  _1s_ ,  _or any other characters_ .
+
+The string that you are to evaluate is the given string of L characters  _repeated X times_ . 
+
+For instance, for L = 4, X = 3, and the given string kiij, your input string would be kiijkiijkiij.
+
+
+** Output
+
+For each test case, output one line containing "Case #x: y", where x is the test case number 
+(starting from 1) and y is either  _YES_  or  _NO_ , 
+
+depending on whether 
+
+the string can be broken into three parts that reduce to  _i_ ,  _j_ , and  _k_ , in that order, as described above.
+
+** Limits
+
+1 ≤ T ≤ 100.
+1 ≤ L ≤ 10000.
+
+
+*** Small dataset
+
+1 ≤ X ≤ 10000.
+1 ≤ L * X ≤ 10000.
+
+*** Large dataset
+
+1 ≤ X ≤  10 ^  _12_
+1 ≤ L * X ≤ 10 ^ _16_
+
+** Sample
+
+
+*** Input
+
+5
+2 1
+ik
+3 1
+ijk
+3 1
+kji
+2 6
+ji
+1 10000
+i
+
+*** Output
+
+Case #1: NO
+Case #2: YES
+Case #3: NO
+Case #4: YES
+Case #5: NO
+
+In Case #1, the string is  _too short to be split into three substrings_ .
+
+In Case #2, just split the string into  _i, j, and k_ .
+
+In Case #3, the only way to split the string into three parts is k, j, i, and this does not satisfy the conditions.
+
+In Case #4, the string is jijijijijiji. It can be split into jij (which reduces to i), iji (which reduces to j), and jijiji (which reduces to k).
+
+In Case #5, no matter how you choose your substrings, none of them can ever reduce to a j or a k.

@@ -8,37 +8,42 @@ using std::cout;
 using std::endl;
 
 
+// ====== Defines ======
+
+
+
+
+
+
+// ------ Defines ------
+
+
+// ====== Types ======
+
+
+// ------ Types ------
+
+
 // ====== Global Variables ======
-
-
-
-
 
 
 // ------ Global Variables ------
 
 
-
 int init_only_once()
 {
-
-        return 0;
-}
-
-
-int init_per_case()
-{
-
         return 0;
 }
 
 int handle_input()
 {
-
-
         return 0;
 }
 
+int init_per_case()
+{
+        return 0;
+}
 
 int run()
 {
