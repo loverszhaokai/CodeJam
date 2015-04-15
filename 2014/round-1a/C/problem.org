@@ -1,0 +1,37 @@
+* Problem D. Deceitful War
+
+
+** Problem
+
+
+** Examples
+
+
+
+** Input
+
+
+** Output
+
+
+** Limits
+
+
+*** Small dataset
+
+
+*** Large dataset
+
+
+
+** Sample
+
+
+*** Input
+
+
+
+*** Output
+
+
+

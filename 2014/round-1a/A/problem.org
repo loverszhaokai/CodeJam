@@ -1,0 +1,141 @@
+* Problem A. Charging Chaos
+
+
+** Problem
+
+*** the  _outlets_  haven't been configured correctly for all of his devices. 
+
+*** Shota owns  _a large number_  of  _smartphones_  and  _laptops_ , 
+and even owns  _a tablet_  for his favorite cow Wagyu to use. 
+
+In total, he owns  _N different devices_ 
+
+
+*** As these devices have  _different specifications_  and are made by  _a variety of companies_ 
+
+**** _they each require a different electric flow to charge_
+
+**** _each outlet in the house outputs a specific electric flow_ 
+
+**** An  _electric flow_  can be represented by a string of  _0s_  and  _1s_  of length  _L_ 
+
+
+*** Shota would like to be able to charge all  _N_  of his devices  _at the same time_ 
+
+Coincidentally, there are exactly  _N outlets_  in his new house. 
+
+*** In order to  _configure the electric flow from the outlets_, there is a  _master control panel_  with  _L switches_ 
+
+**** The  _ith_  switch flips  the  _ith_  bit of the electric flow from  _each outlet_
+
+For example, if the electric flow from the outlets is: 
+
+Outlet 0: 10
+Outlet 1: 01
+Outlet 2: 11
+
+Then flipping the  _second_  switch will reconfigure the electric flow to: 
+
+Outlet 0: 11
+Outlet 1: 00
+Outlet 2: 10
+
+
+If Shota has a smartphone that needs flow "11" to charge, a tablet that needs flow "10" to charge, 
+and a laptop that needs flow "00" to charge, then flipping the second switch will make him very happy! 
+
+
+_Misaki_  has been hired by Shota to help him solve this problem. 
+
+She has measured the electric flows from the outlets in the house, and noticed that  _they are all different_ 
+
+*** Decide if it is possible for Shota to charge all of his devices at the same time, 
+
+and if it is possible, figure out the  _minimum number of switches that needs to be flipped_ 
+
+
+** Input
+
+The first line of the input gives the number of test cases, T. T test cases follow. 
+
+Each test case consists of three lines. 
+
+The first line contains two space-separated integers  _N_  and  _L_
+
+The second line contains  _N_  space-separated strings of length  _L_, 
+representing the initial electric flow from the outlets. 
+
+The third line also contains  _N_  space-separated strings of length  _L_, 
+representing the electric flow required by Shota's devices. 
+
+
+** Output
+
+For each test case, output one line containing "Case #x: y", 
+where x is the case number (starting from 1) and 
+y is the minimum number of switches to be flipped in order for Shota to charge all his devices.
+
+If it is impossible, y should be the string " _NOT POSSIBLE_ " (without the quotes). 
+
+** Limits
+
+1 ≤ T ≤ 100.
+
+_No two outlets will be producing the same electric flow_ , initially.
+
+_No two devices will require the same electric flow_
+
+*** Small dataset
+
+1 ≤ N ≤ 10.
+2 ≤ L ≤ 10. 
+
+*** Large dataset
+
+1 ≤ N ≤ 150.
+10 ≤ L ≤ 40. 
+
+** Sample
+
+
+*** Input
+
+3
+
+3 2
+01 11 10
+11 00 10
+
+2 3
+101 111
+010 001
+
+2 2
+01 10
+10 01
+
+
+*** Output
+
+Case #1: 1
+Case #2: NOT POSSIBLE
+Case #3: 0
+
+
+*** Explanation
+
+In the first example case, Misaki can flip the second switch once. 
+
+The electric flow from the outlets becomes: 
+
+
+Outlet 0: 00
+Outlet 1: 10
+Outlet 2: 11
+
+
+Then Shota can use the outlet 0 to charge device 1, 
+the outlet 1 to charge device 2, outlet 2 to charge device 0. 
+
+This is also a solution that requires the minimum amount number of switches to be flipped.
+
