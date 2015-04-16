@@ -1,11 +1,7 @@
-* Problem D. Deceitful War
+* Problem 
 
 
 ** Problem
-
-
-** Examples
-
 
 
 ** Input
