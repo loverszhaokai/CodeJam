@@ -63,11 +63,8 @@ int main()
 
                 run_ret = run();
 
-                cout << "Case #" << tt << ": ";
-
-
-
-		cout << endl;
+                cout << "Case #" << tt << ": " << "something" << endl;
+                
         }
 
 

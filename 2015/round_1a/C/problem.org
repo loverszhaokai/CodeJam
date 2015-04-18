@@ -1,0 +1,119 @@
+* Problem C. Logging
+
+
+** Problem
+
+A certain forest consists of  _N trees_ , each of which is  _inhabited by a squirrel_. 
+
+The  _boundary_  of the forest is the  _convex polygon of smallest area which contains every tree_ , 
+as if a giant rubber band had been stretched around the outside of the forest. 
+
+Formally, every tree is a single point in two-dimensional space with unique coordinates (Xi, Yi), 
+and the  _boundary_  is the convex hull of those points. 
+
+
+Some trees are on the  _boundary_  of the forest, 
+which means they are on an  _edge_  or a  _corner_  of the polygon. 
+
+The squirrels wonder  _how close their trees are to being on the boundary of the forest_ 
+
+
+One at a time, each squirrel climbs down from its tree, examines the forest, 
+
+and  _determines the minimum number of trees that would need to be cut down for its own tree to be on the boundary_ 
+
+It then writes that number down on a log. 
+
+Determine the list of numbers written on the log. 
+
+
+** Input
+
+The first line of the input gives the number of test cases, T. 
+T test cases follow; 
+
+each consists of a single line with an integer  _N_ , the number of trees, 
+followed by  _N_  lines with two space-separated integers Xi and Yi, 
+the coordinates of each tree. 
+
+No two trees will have the same coordinates. 
+
+
+** Output
+
+For each test case, output one line containing "Case #x:", 
+
+followed by N lines with one integer each, 
+where line i contains the number of trees that the squirrel living in tree i would need to cut down. 
+
+** Limits
+
+-10^6 ≤ Xi, Yi ≤ 10^6.
+
+
+*** Small dataset
+
+1 ≤ T ≤ 100.
+1 ≤ N ≤ 15.
+
+*** Large dataset
+
+1 ≤ T ≤ 14.
+1 ≤ N ≤ 3000.
+
+** Sample
+
+
+*** Input
+
+2
+
+5
+0 0
+10 0
+10 10
+0 10
+5 5
+
+9
+0 0
+5 0
+10 0
+0 5
+5 5
+10 5
+0 10
+5 10
+10 10
+
+
+*** Output
+
+
+Case #1:
+0
+0
+0
+0
+1
+Case #2:
+0
+0
+0
+0
+3
+0
+0
+0
+0
+
+
+In the first sample case, there are four trees forming a square, 
+and a fifth tree inside the square. 
+
+Since the first four trees are already on the boundary, 
+the squirrels for those trees each write down 0. 
+
+Since one tree needs to be cut down for the fifth tree to be on the boundary, 
+the fifth squirrel writes down 1.
+
