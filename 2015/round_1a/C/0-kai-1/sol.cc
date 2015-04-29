@@ -1,5 +1,6 @@
 #include <climits>
-#include <stdio.h>
+#include <cstring>
+#include <cstdio>
 
 #include <algorithm>
 #include <iostream>
@@ -47,9 +48,11 @@ int point_largest_y;
 int edge_matrix[N_MAX_SIZE][N_MAX_SIZE];
 double k_matrix[N_MAX_SIZE][N_MAX_SIZE];
 
-struct Point points_ob[N_MAX_SIZE]; // points on the boundary
+char points_id_ob[N_MAX_SIZE]; // points on the boundary
 
 // ------ Global Variables ------
+
+void get_next_vertex(const int pre_point_id, const int cnt_point_id);
 
 
 int init_only_once()
@@ -101,43 +104,138 @@ void print_matrix()
 
 inline double get_k(const struct Point &lhs, const struct Point &rhs)
 {
-	if (lhs.x == rhs.x)
-		return (double)INT_MAX;
 	if (lhs.y == rhs.y)
 		return (double)0;
 	return ((double)(lhs.y - rhs.y)) / ((double)(lhs.x - rhs.x));
-}
-
-void get_new_vertex(const int point_id)
-{
-	double largest_k;
-	double smallest_k;
-        
-	for (int i = 1; i <= N; i++) {
-		if (point_id == i)
-			continue;
-
-        }
 }
 
 void init_k_matrix()
 {
 	for (int iii = 1; iii <= N; iii++) {
 		for (int jjj = 1; jjj <= N; jjj++) {
-			if (iii == jjj)
-				continue;
-			k_matrix[iii][jjj] = get_k(points[iii], points[jjj]);
+			if (iii == jjj || points[iii].x == points[jjj].x)
+				k_matrix[iii][jjj] = 0;
+			else
+				k_matrix[iii][jjj] = get_k(points[iii], points[jjj]);
                 }
         }
 }
 
-void fun(const double pre_k, const int pre_point_id)
+// 
+// next_k: is the first k in (-oo, +oo)
+// 
+void get_next_vertex_vertical(const int cnt_point_id)
 {
-	
+	bool first_time = true;
+	int next_point_id = -1;
+	double temp_k;
+	double smallest_k;
+        
+	for (int iii = 1; iii <= N; iii++) {
+		if (1 == edge_matrix[cnt_point_id][iii])
+			continue;
+		if (cnt_point_id == iii)
+			continue;
+
+		if (points[cnt_point_id].x == points[iii].x) {
+                        next_point_id = iii;
+			break;
+                }
+
+		temp_k = k_matrix[cnt_point_id][iii];
+
+		if (first_time) {
+			smallest_k = temp_k;
+                        first_time = false;
+			next_point_id = iii;
+                }
+
+		if (smallest_k > temp_k) {
+			smallest_k = temp_k;
+                        next_point_id = iii;
+                }
+        }
+
+	if (-1 == next_point_id)
+		return;
+
+	points_id_ob[next_point_id] = 1;
+	edge_matrix[cnt_point_id][next_point_id] = 1;
+	edge_matrix[next_point_id][nct_point_id] = 1;
+
+	get_next_vertex(cnt_point_id, next_point_id);
+}
+
+// 
+// next_k: is the first k in [pre_k, +oo), vertical line, (-oo, pre_k)
+// 
+void get_next_vertex(const int pre_point_id, const int cnt_point_id)
+{
+	if (points[pre_point_id].x == points[cnt_point_id].x)
+		get_next_vertex_vertical(cnt_point_id);
+
+	bool has_k_1 = false;
+        bool has_k_2 = false;
+        bool has_k_3 = false;
+
+	int next_point_id = -1;
+
+	const double pre_k = k_matrix[pre_point_id][cnt_point_id];
+	double temp_k;
+	double smallest_k_1;
+	double smallest_k_3;
+        
+	for (int iii = 1; iii <= N; iii++) {
+		if (1 == points_id_ob[iii])
+			continue;
+		if (cnt_point_id == iii)
+			continue;
+		if (points[cnt_point_id].x == points[iii].x) {
+			has_k_2 = true;
+			if (!has_k_1)
+				next_point_id = iii;
+                } else {
+			temp_k = k_matrix[cnt_point_id][iii];
+
+			if (temp_k >= pre_k) {
+				if (!has_k_1) {
+					smallest_k_1 = temp_k;
+					has_k_1 = true;
+					next_point_id = iii;
+                                }
+				if (smallest_k_1 > temp_k) {
+					smallest_k_1 = temp_k;
+					next_point_id = iii;
+                                }
+                        }
+
+			if (temp_k < pre_k && !has_k_1 && !has_k_2) {
+				if (!has_k_3) {
+					smallest_k_3 = temp_k;
+					has_k_3 = true;
+                                }
+				if (smallest_k_3 > temp_k) {
+					smallest_k_3 = temp_k;
+                                        next_point_id = iii;
+                                }
+                        }
+                }
+        }
+
+	if (!has_k_1 && !has_k_2 && !has_k_3)
+		return;
+
+	points_id_ob[next_point_id] = 1;
+	edge_matrix[cnt_point_id][next_point_id] = 1;
+	edge_matrix[next_point_id][nct_point_id] = 1;
+	get_next_vertex(cnt_point_id, next_point_id);
 }
 
 void init_edge_matrix()
 {
+	memset(points_id_ob, 0, sizeof(points_id_ob));
+
+
 
 }
 

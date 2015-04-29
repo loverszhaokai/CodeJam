@@ -1,6 +1,12 @@
-#include <stdio.h>
+#include <climits>
+#include <cstring>
+#include <cstdio>
 
+#include <algorithm>
 #include <iostream>
+#include <map>
+#include <string>
+#include <vector>
 
 
 using std::cin;
@@ -24,6 +30,12 @@ using std::endl;
 
 
 // ------ Global Variables ------
+
+
+// ====== Function declarations ======
+
+
+// ------ Function declarations ------
 
 
 int init_only_once()
