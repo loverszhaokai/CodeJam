@@ -1,8 +1,10 @@
 #include <climits>
 #include <cstring>
 #include <cstdio>
+#include <cstdlib>
 
 #include <algorithm>
+#include <fstream>
 #include <iostream>
 #include <map>
 #include <string>
@@ -28,6 +30,8 @@ using std::endl;
 
 // ====== Global Variables ======
 
+std::fstream log_fs;
+
 
 // ------ Global Variables ------
 
@@ -40,26 +44,45 @@ using std::endl;
 
 int init_only_once()
 {
+	log_fs << ">>>>init_only_once()" << endl;
+	log_fs << "<<<<init_only_once()" << endl << endl;
+
         return 0;
 }
 
 int handle_input()
 {
+	log_fs << ">>>>>>handle_input()" << endl;
+	log_fs << "<<<<<<handle_input()" << endl << endl;
+
         return 0;
 }
 
 int init_per_case()
 {
+	log_fs << ">>>>>>init_per_case()" << endl;
+
+	log_fs << "<<<<<<init_per_case()" << endl << endl;
+
         return 0;
 }
 
 int run()
 {
-        return 0;
+	log_fs << ">>>>>>run()" << endl;
+
+	int ans = 0;
+
+
+	log_fs << "<<<<<<run() = " << ans << endl << endl;
+	return ans;
 }
 
 int main()
 {
+        log_fs.open("log.txt", std::fstream::out);
+	log_fs << ">>main()" << endl << endl;
+
         init_only_once();
 
         int total_cases_count = 0;
@@ -78,11 +101,14 @@ int main()
                 cout << "Case #" << tt << ": ";
 
 
-
 		cout << endl;
+
+		log_fs << "Case #" << tt << ": " << run_ret << endl;
         }
 
 
+	log_fs << "<<main()" << endl;
+	log_fs.close();
         return 0;
 }
 
