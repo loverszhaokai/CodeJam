@@ -1,0 +1,3476 @@
+>>main()
+
+>>>>init_only_once()
+<<<<init_only_once()
+
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,10)
+<<<<<<<<<<least_common_multiple(1,10) = 10
+
+>>>>>>>>>>least_common_multiple(10,5)
+<<<<<<<<<<least_common_multiple(10,5) = 10
+
+<<<<<<<<get_lcm() = 10
+
+>>>>>>>>get_count_T(10)
+<<<<<<<<get_count_T(10) = 3
+
+<<<<<<  N=1
+>>>>>>>>get_ans(10)
+<<<<<<<<get_ans(10) = 1
+
+<<<<<<run() = 1
+
+Case #1: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,7)
+<<<<<<<<<<least_common_multiple(1,7) = 7
+
+>>>>>>>>>>least_common_multiple(7,7)
+<<<<<<<<<<least_common_multiple(7,7) = 7
+
+>>>>>>>>>>least_common_multiple(7,7)
+<<<<<<<<<<least_common_multiple(7,7) = 7
+
+<<<<<<<<get_lcm() = 7
+
+>>>>>>>>get_count_T(7)
+<<<<<<<<get_count_T(7) = 3
+
+<<<<<<  N=3
+>>>>>>>>get_ans(7)
+<<<<<<<<get_ans(7) = 3
+
+<<<<<<run() = 3
+
+Case #2: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,4)
+<<<<<<<<<<least_common_multiple(1,4) = 4
+
+>>>>>>>>>>least_common_multiple(4,2)
+<<<<<<<<<<least_common_multiple(4,2) = 4
+
+>>>>>>>>>>least_common_multiple(4,1)
+<<<<<<<<<<least_common_multiple(4,1) = 4
+
+<<<<<<<<get_lcm() = 4
+
+>>>>>>>>get_count_T(4)
+<<<<<<<<get_count_T(4) = 7
+
+<<<<<<  N=5
+>>>>>>>>get_ans(4)
+<<<<<<<<get_ans(4) = 2
+
+<<<<<<run() = 2
+
+Case #3: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,25)
+<<<<<<<<<<least_common_multiple(1,25) = 25
+
+>>>>>>>>>>least_common_multiple(25,25)
+<<<<<<<<<<least_common_multiple(25,25) = 25
+
+>>>>>>>>>>least_common_multiple(25,25)
+<<<<<<<<<<least_common_multiple(25,25) = 25
+
+>>>>>>>>>>least_common_multiple(25,25)
+<<<<<<<<<<least_common_multiple(25,25) = 25
+
+>>>>>>>>>>least_common_multiple(25,25)
+<<<<<<<<<<least_common_multiple(25,25) = 25
+
+<<<<<<<<get_lcm() = 25
+
+>>>>>>>>get_count_T(25)
+<<<<<<<<get_count_T(25) = 5
+
+<<<<<<  N=5
+>>>>>>>>get_ans(25)
+<<<<<<<<get_ans(25) = 5
+
+<<<<<<run() = 5
+
+Case #4: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+<<<<<<<<get_lcm() = 1
+
+>>>>>>>>get_count_T(1)
+<<<<<<<<get_count_T(1) = 2
+
+<<<<<<  N=2
+>>>>>>>>get_ans(1)
+<<<<<<<<get_ans(1) = 2
+
+<<<<<<run() = 2
+
+Case #5: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+<<<<<<<<get_lcm() = 1
+
+>>>>>>>>get_count_T(1)
+<<<<<<<<get_count_T(1) = 5
+
+<<<<<<  N=5
+>>>>>>>>get_ans(1)
+<<<<<<<<get_ans(1) = 5
+
+<<<<<<run() = 5
+
+Case #6: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=137
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #7: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,18)
+<<<<<<<<<<least_common_multiple(1,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,7)
+<<<<<<<<<<least_common_multiple(18,7) = 126
+
+>>>>>>>>>>least_common_multiple(126,21)
+<<<<<<<<<<least_common_multiple(126,21) = 126
+
+>>>>>>>>>>least_common_multiple(126,11)
+<<<<<<<<<<least_common_multiple(126,11) = 1386
+
+>>>>>>>>>>least_common_multiple(1386,25)
+<<<<<<<<<<least_common_multiple(1386,25) = 34650
+
+<<<<<<<<get_lcm() = 34650
+
+>>>>>>>>get_count_T(34650)
+<<<<<<<<get_count_T(34650) = 13061
+
+<<<<<<  N=9337
+>>>>>>>>get_ans(34650)
+<<<<<<<<get_ans(34650) = 4
+
+<<<<<<run() = 4
+
+Case #8: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,10)
+<<<<<<<<<<least_common_multiple(1,10) = 10
+
+>>>>>>>>>>least_common_multiple(10,10)
+<<<<<<<<<<least_common_multiple(10,10) = 10
+
+>>>>>>>>>>least_common_multiple(10,10)
+<<<<<<<<<<least_common_multiple(10,10) = 10
+
+>>>>>>>>>>least_common_multiple(10,10)
+<<<<<<<<<<least_common_multiple(10,10) = 10
+
+>>>>>>>>>>least_common_multiple(10,10)
+<<<<<<<<<<least_common_multiple(10,10) = 10
+
+<<<<<<<<get_lcm() = 10
+
+>>>>>>>>get_count_T(10)
+<<<<<<<<get_count_T(10) = 5
+
+<<<<<<  N=3
+>>>>>>>>get_ans(10)
+<<<<<<<<get_ans(10) = 3
+
+<<<<<<run() = 3
+
+Case #9: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,5)
+<<<<<<<<<<least_common_multiple(1,5) = 5
+
+>>>>>>>>>>least_common_multiple(5,5)
+<<<<<<<<<<least_common_multiple(5,5) = 5
+
+>>>>>>>>>>least_common_multiple(5,5)
+<<<<<<<<<<least_common_multiple(5,5) = 5
+
+>>>>>>>>>>least_common_multiple(5,5)
+<<<<<<<<<<least_common_multiple(5,5) = 5
+
+>>>>>>>>>>least_common_multiple(5,5)
+<<<<<<<<<<least_common_multiple(5,5) = 5
+
+<<<<<<<<get_lcm() = 5
+
+>>>>>>>>get_count_T(5)
+<<<<<<<<get_count_T(5) = 5
+
+<<<<<<  N=3
+>>>>>>>>get_ans(5)
+<<<<<<<<get_ans(5) = 3
+
+<<<<<<run() = 3
+
+Case #10: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,10)
+<<<<<<<<<<least_common_multiple(1,10) = 10
+
+>>>>>>>>>>least_common_multiple(10,10)
+<<<<<<<<<<least_common_multiple(10,10) = 10
+
+>>>>>>>>>>least_common_multiple(10,10)
+<<<<<<<<<<least_common_multiple(10,10) = 10
+
+>>>>>>>>>>least_common_multiple(10,10)
+<<<<<<<<<<least_common_multiple(10,10) = 10
+
+>>>>>>>>>>least_common_multiple(10,10)
+<<<<<<<<<<least_common_multiple(10,10) = 10
+
+<<<<<<<<get_lcm() = 10
+
+>>>>>>>>get_count_T(10)
+<<<<<<<<get_count_T(10) = 5
+
+<<<<<<  N=2
+>>>>>>>>get_ans(10)
+<<<<<<<<get_ans(10) = 2
+
+<<<<<<run() = 2
+
+Case #11: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,18)
+<<<<<<<<<<least_common_multiple(1,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+<<<<<<<<get_lcm() = 18
+
+>>>>>>>>get_count_T(18)
+<<<<<<<<get_count_T(18) = 5
+
+<<<<<<  N=1
+>>>>>>>>get_ans(18)
+<<<<<<<<get_ans(18) = 1
+
+<<<<<<run() = 1
+
+Case #12: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,5)
+<<<<<<<<<<least_common_multiple(1,5) = 5
+
+>>>>>>>>>>least_common_multiple(5,5)
+<<<<<<<<<<least_common_multiple(5,5) = 5
+
+>>>>>>>>>>least_common_multiple(5,5)
+<<<<<<<<<<least_common_multiple(5,5) = 5
+
+>>>>>>>>>>least_common_multiple(5,5)
+<<<<<<<<<<least_common_multiple(5,5) = 5
+
+>>>>>>>>>>least_common_multiple(5,5)
+<<<<<<<<<<least_common_multiple(5,5) = 5
+
+<<<<<<<<get_lcm() = 5
+
+>>>>>>>>get_count_T(5)
+<<<<<<<<get_count_T(5) = 5
+
+<<<<<<  N=5
+>>>>>>>>get_ans(5)
+<<<<<<<<get_ans(5) = 5
+
+<<<<<<run() = 5
+
+Case #13: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,7)
+<<<<<<<<<<least_common_multiple(1,7) = 7
+
+>>>>>>>>>>least_common_multiple(7,7)
+<<<<<<<<<<least_common_multiple(7,7) = 7
+
+>>>>>>>>>>least_common_multiple(7,7)
+<<<<<<<<<<least_common_multiple(7,7) = 7
+
+>>>>>>>>>>least_common_multiple(7,7)
+<<<<<<<<<<least_common_multiple(7,7) = 7
+
+>>>>>>>>>>least_common_multiple(7,7)
+<<<<<<<<<<least_common_multiple(7,7) = 7
+
+<<<<<<<<get_lcm() = 7
+
+>>>>>>>>get_count_T(7)
+<<<<<<<<get_count_T(7) = 5
+
+<<<<<<  N=2
+>>>>>>>>get_ans(7)
+<<<<<<<<get_ans(7) = 2
+
+<<<<<<run() = 2
+
+Case #14: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,12)
+<<<<<<<<<<least_common_multiple(1,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+<<<<<<<<get_lcm() = 12
+
+>>>>>>>>get_count_T(12)
+<<<<<<<<get_count_T(12) = 5
+
+<<<<<<  N=2
+>>>>>>>>get_ans(12)
+<<<<<<<<get_ans(12) = 2
+
+<<<<<<run() = 2
+
+Case #15: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,15)
+<<<<<<<<<<least_common_multiple(1,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+<<<<<<<<get_lcm() = 15
+
+>>>>>>>>get_count_T(15)
+<<<<<<<<get_count_T(15) = 5
+
+<<<<<<  N=2
+>>>>>>>>get_ans(15)
+<<<<<<<<get_ans(15) = 2
+
+<<<<<<run() = 2
+
+Case #16: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,12)
+<<<<<<<<<<least_common_multiple(1,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+<<<<<<<<get_lcm() = 12
+
+>>>>>>>>get_count_T(12)
+<<<<<<<<get_count_T(12) = 5
+
+<<<<<<  N=2
+>>>>>>>>get_ans(12)
+<<<<<<<<get_ans(12) = 2
+
+<<<<<<run() = 2
+
+Case #17: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,23)
+<<<<<<<<<<least_common_multiple(1,23) = 23
+
+>>>>>>>>>>least_common_multiple(23,23)
+<<<<<<<<<<least_common_multiple(23,23) = 23
+
+>>>>>>>>>>least_common_multiple(23,23)
+<<<<<<<<<<least_common_multiple(23,23) = 23
+
+>>>>>>>>>>least_common_multiple(23,23)
+<<<<<<<<<<least_common_multiple(23,23) = 23
+
+>>>>>>>>>>least_common_multiple(23,23)
+<<<<<<<<<<least_common_multiple(23,23) = 23
+
+<<<<<<<<get_lcm() = 23
+
+>>>>>>>>get_count_T(23)
+<<<<<<<<get_count_T(23) = 5
+
+<<<<<<  N=4
+>>>>>>>>get_ans(23)
+<<<<<<<<get_ans(23) = 4
+
+<<<<<<run() = 4
+
+Case #18: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,15)
+<<<<<<<<<<least_common_multiple(1,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+<<<<<<<<get_lcm() = 15
+
+>>>>>>>>get_count_T(15)
+<<<<<<<<get_count_T(15) = 5
+
+<<<<<<  N=4
+>>>>>>>>get_ans(15)
+<<<<<<<<get_ans(15) = 4
+
+<<<<<<run() = 4
+
+Case #19: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,6)
+<<<<<<<<<<least_common_multiple(1,6) = 6
+
+>>>>>>>>>>least_common_multiple(6,6)
+<<<<<<<<<<least_common_multiple(6,6) = 6
+
+>>>>>>>>>>least_common_multiple(6,6)
+<<<<<<<<<<least_common_multiple(6,6) = 6
+
+>>>>>>>>>>least_common_multiple(6,6)
+<<<<<<<<<<least_common_multiple(6,6) = 6
+
+>>>>>>>>>>least_common_multiple(6,6)
+<<<<<<<<<<least_common_multiple(6,6) = 6
+
+<<<<<<<<get_lcm() = 6
+
+>>>>>>>>get_count_T(6)
+<<<<<<<<get_count_T(6) = 5
+
+<<<<<<  N=5
+>>>>>>>>get_ans(6)
+<<<<<<<<get_ans(6) = 5
+
+<<<<<<run() = 5
+
+Case #20: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,21)
+<<<<<<<<<<least_common_multiple(1,21) = 21
+
+>>>>>>>>>>least_common_multiple(21,21)
+<<<<<<<<<<least_common_multiple(21,21) = 21
+
+>>>>>>>>>>least_common_multiple(21,21)
+<<<<<<<<<<least_common_multiple(21,21) = 21
+
+>>>>>>>>>>least_common_multiple(21,21)
+<<<<<<<<<<least_common_multiple(21,21) = 21
+
+>>>>>>>>>>least_common_multiple(21,21)
+<<<<<<<<<<least_common_multiple(21,21) = 21
+
+<<<<<<<<get_lcm() = 21
+
+>>>>>>>>get_count_T(21)
+<<<<<<<<get_count_T(21) = 5
+
+<<<<<<  N=5
+>>>>>>>>get_ans(21)
+<<<<<<<<get_ans(21) = 5
+
+<<<<<<run() = 5
+
+Case #21: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,11)
+<<<<<<<<<<least_common_multiple(1,11) = 11
+
+>>>>>>>>>>least_common_multiple(11,11)
+<<<<<<<<<<least_common_multiple(11,11) = 11
+
+>>>>>>>>>>least_common_multiple(11,11)
+<<<<<<<<<<least_common_multiple(11,11) = 11
+
+>>>>>>>>>>least_common_multiple(11,11)
+<<<<<<<<<<least_common_multiple(11,11) = 11
+
+>>>>>>>>>>least_common_multiple(11,11)
+<<<<<<<<<<least_common_multiple(11,11) = 11
+
+<<<<<<<<get_lcm() = 11
+
+>>>>>>>>get_count_T(11)
+<<<<<<<<get_count_T(11) = 5
+
+<<<<<<  N=4
+>>>>>>>>get_ans(11)
+<<<<<<<<get_ans(11) = 4
+
+<<<<<<run() = 4
+
+Case #22: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,17)
+<<<<<<<<<<least_common_multiple(1,17) = 17
+
+>>>>>>>>>>least_common_multiple(17,17)
+<<<<<<<<<<least_common_multiple(17,17) = 17
+
+>>>>>>>>>>least_common_multiple(17,17)
+<<<<<<<<<<least_common_multiple(17,17) = 17
+
+>>>>>>>>>>least_common_multiple(17,17)
+<<<<<<<<<<least_common_multiple(17,17) = 17
+
+>>>>>>>>>>least_common_multiple(17,17)
+<<<<<<<<<<least_common_multiple(17,17) = 17
+
+<<<<<<<<get_lcm() = 17
+
+>>>>>>>>get_count_T(17)
+<<<<<<<<get_count_T(17) = 5
+
+<<<<<<  N=2
+>>>>>>>>get_ans(17)
+<<<<<<<<get_ans(17) = 2
+
+<<<<<<run() = 2
+
+Case #23: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,9)
+<<<<<<<<<<least_common_multiple(1,9) = 9
+
+>>>>>>>>>>least_common_multiple(9,9)
+<<<<<<<<<<least_common_multiple(9,9) = 9
+
+>>>>>>>>>>least_common_multiple(9,9)
+<<<<<<<<<<least_common_multiple(9,9) = 9
+
+>>>>>>>>>>least_common_multiple(9,9)
+<<<<<<<<<<least_common_multiple(9,9) = 9
+
+>>>>>>>>>>least_common_multiple(9,9)
+<<<<<<<<<<least_common_multiple(9,9) = 9
+
+<<<<<<<<get_lcm() = 9
+
+>>>>>>>>get_count_T(9)
+<<<<<<<<get_count_T(9) = 5
+
+<<<<<<  N=3
+>>>>>>>>get_ans(9)
+<<<<<<<<get_ans(9) = 3
+
+<<<<<<run() = 3
+
+Case #24: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,15)
+<<<<<<<<<<least_common_multiple(1,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+<<<<<<<<get_lcm() = 15
+
+>>>>>>>>get_count_T(15)
+<<<<<<<<get_count_T(15) = 5
+
+<<<<<<  N=4
+>>>>>>>>get_ans(15)
+<<<<<<<<get_ans(15) = 4
+
+<<<<<<run() = 4
+
+Case #25: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,12)
+<<<<<<<<<<least_common_multiple(1,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+<<<<<<<<get_lcm() = 12
+
+>>>>>>>>get_count_T(12)
+<<<<<<<<get_count_T(12) = 5
+
+<<<<<<  N=2
+>>>>>>>>get_ans(12)
+<<<<<<<<get_ans(12) = 2
+
+<<<<<<run() = 2
+
+Case #26: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,18)
+<<<<<<<<<<least_common_multiple(1,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+<<<<<<<<get_lcm() = 18
+
+>>>>>>>>get_count_T(18)
+<<<<<<<<get_count_T(18) = 5
+
+<<<<<<  N=5
+>>>>>>>>get_ans(18)
+<<<<<<<<get_ans(18) = 5
+
+<<<<<<run() = 5
+
+Case #27: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,12)
+<<<<<<<<<<least_common_multiple(1,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,12)
+<<<<<<<<<<least_common_multiple(12,12) = 12
+
+<<<<<<<<get_lcm() = 12
+
+>>>>>>>>get_count_T(12)
+<<<<<<<<get_count_T(12) = 5
+
+<<<<<<  N=1
+>>>>>>>>get_ans(12)
+<<<<<<<<get_ans(12) = 1
+
+<<<<<<run() = 1
+
+Case #28: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,16)
+<<<<<<<<<<least_common_multiple(1,16) = 16
+
+>>>>>>>>>>least_common_multiple(16,16)
+<<<<<<<<<<least_common_multiple(16,16) = 16
+
+>>>>>>>>>>least_common_multiple(16,16)
+<<<<<<<<<<least_common_multiple(16,16) = 16
+
+>>>>>>>>>>least_common_multiple(16,16)
+<<<<<<<<<<least_common_multiple(16,16) = 16
+
+>>>>>>>>>>least_common_multiple(16,16)
+<<<<<<<<<<least_common_multiple(16,16) = 16
+
+<<<<<<<<get_lcm() = 16
+
+>>>>>>>>get_count_T(16)
+<<<<<<<<get_count_T(16) = 5
+
+<<<<<<  N=4
+>>>>>>>>get_ans(16)
+<<<<<<<<get_ans(16) = 4
+
+<<<<<<run() = 4
+
+Case #29: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,22)
+<<<<<<<<<<least_common_multiple(1,22) = 22
+
+>>>>>>>>>>least_common_multiple(22,22)
+<<<<<<<<<<least_common_multiple(22,22) = 22
+
+>>>>>>>>>>least_common_multiple(22,22)
+<<<<<<<<<<least_common_multiple(22,22) = 22
+
+>>>>>>>>>>least_common_multiple(22,22)
+<<<<<<<<<<least_common_multiple(22,22) = 22
+
+>>>>>>>>>>least_common_multiple(22,22)
+<<<<<<<<<<least_common_multiple(22,22) = 22
+
+<<<<<<<<get_lcm() = 22
+
+>>>>>>>>get_count_T(22)
+<<<<<<<<get_count_T(22) = 5
+
+<<<<<<  N=5
+>>>>>>>>get_ans(22)
+<<<<<<<<get_ans(22) = 5
+
+<<<<<<run() = 5
+
+Case #30: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,18)
+<<<<<<<<<<least_common_multiple(1,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+<<<<<<<<get_lcm() = 18
+
+>>>>>>>>get_count_T(18)
+<<<<<<<<get_count_T(18) = 5
+
+<<<<<<  N=1
+>>>>>>>>get_ans(18)
+<<<<<<<<get_ans(18) = 1
+
+<<<<<<run() = 1
+
+Case #31: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,15)
+<<<<<<<<<<least_common_multiple(1,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,15)
+<<<<<<<<<<least_common_multiple(15,15) = 15
+
+<<<<<<<<get_lcm() = 15
+
+>>>>>>>>get_count_T(15)
+<<<<<<<<get_count_T(15) = 5
+
+<<<<<<  N=5
+>>>>>>>>get_ans(15)
+<<<<<<<<get_ans(15) = 5
+
+<<<<<<run() = 5
+
+Case #32: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,18)
+<<<<<<<<<<least_common_multiple(1,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,18)
+<<<<<<<<<<least_common_multiple(18,18) = 18
+
+<<<<<<<<get_lcm() = 18
+
+>>>>>>>>get_count_T(18)
+<<<<<<<<get_count_T(18) = 5
+
+<<<<<<  N=1
+>>>>>>>>get_ans(18)
+<<<<<<<<get_ans(18) = 1
+
+<<<<<<run() = 1
+
+Case #33: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=116
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #34: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=42
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #35: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=82
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #36: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=4
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 4
+
+<<<<<<run() = 4
+
+Case #37: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=69
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #38: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=20
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #39: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=108
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #40: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=122
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 2
+
+<<<<<<run() = 2
+
+Case #41: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=34
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #42: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=85
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 2
+
+<<<<<<run() = 2
+
+Case #43: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=82
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #44: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=74
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #45: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=131
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 2
+
+<<<<<<run() = 2
+
+Case #46: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=103
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 2
+
+<<<<<<run() = 2
+
+Case #47: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=2
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 2
+
+<<<<<<run() = 2
+
+Case #48: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=73
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 5
+
+<<<<<<run() = 5
+
+Case #49: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=137
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #50: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=133
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #51: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=43
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #52: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=10
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 3
+
+<<<<<<run() = 3
+
+Case #53: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=88
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 1
+
+<<<<<<run() = 1
+
+Case #54: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=127
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 3
+
+<<<<<<run() = 3
+
+Case #55: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=45
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 3
+
+<<<<<<run() = 3
+
+Case #56: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=112
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 2
+
+<<<<<<run() = 2
+
+Case #57: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,2)
+<<<<<<<<<<least_common_multiple(1,2) = 2
+
+>>>>>>>>>>least_common_multiple(2,3)
+<<<<<<<<<<least_common_multiple(2,3) = 6
+
+>>>>>>>>>>least_common_multiple(6,4)
+<<<<<<<<<<least_common_multiple(6,4) = 12
+
+>>>>>>>>>>least_common_multiple(12,5)
+<<<<<<<<<<least_common_multiple(12,5) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 137
+
+<<<<<<  N=90
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 2
+
+<<<<<<run() = 2
+
+Case #58: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,3)
+<<<<<<<<<<least_common_multiple(1,3) = 3
+
+>>>>>>>>>>least_common_multiple(3,3)
+<<<<<<<<<<least_common_multiple(3,3) = 3
+
+>>>>>>>>>>least_common_multiple(3,21)
+<<<<<<<<<<least_common_multiple(3,21) = 21
+
+>>>>>>>>>>least_common_multiple(21,3)
+<<<<<<<<<<least_common_multiple(21,3) = 21
+
+>>>>>>>>>>least_common_multiple(21,8)
+<<<<<<<<<<least_common_multiple(21,8) = 168
+
+<<<<<<<<get_lcm() = 168
+
+>>>>>>>>get_count_T(168)
+<<<<<<<<get_count_T(168) = 197
+
+<<<<<<  N=192
+>>>>>>>>get_ans(168)
+<<<<<<<<get_ans(168) = 1
+
+<<<<<<run() = 1
+
+Case #59: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,7)
+<<<<<<<<<<least_common_multiple(1,7) = 7
+
+>>>>>>>>>>least_common_multiple(7,14)
+<<<<<<<<<<least_common_multiple(7,14) = 14
+
+>>>>>>>>>>least_common_multiple(14,1)
+<<<<<<<<<<least_common_multiple(14,1) = 14
+
+>>>>>>>>>>least_common_multiple(14,5)
+<<<<<<<<<<least_common_multiple(14,5) = 70
+
+>>>>>>>>>>least_common_multiple(70,8)
+<<<<<<<<<<least_common_multiple(70,8) = 280
+
+<<<<<<<<get_lcm() = 280
+
+>>>>>>>>get_count_T(280)
+<<<<<<<<get_count_T(280) = 431
+
+<<<<<<  N=212
+>>>>>>>>get_ans(280)
+<<<<<<<<get_ans(280) = 3
+
+<<<<<<run() = 3
+
+Case #60: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,15)
+<<<<<<<<<<least_common_multiple(1,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,20)
+<<<<<<<<<<least_common_multiple(15,20) = 60
+
+>>>>>>>>>>least_common_multiple(60,8)
+<<<<<<<<<<least_common_multiple(60,8) = 120
+
+>>>>>>>>>>least_common_multiple(120,12)
+<<<<<<<<<<least_common_multiple(120,12) = 120
+
+>>>>>>>>>>least_common_multiple(120,3)
+<<<<<<<<<<least_common_multiple(120,3) = 120
+
+<<<<<<<<get_lcm() = 120
+
+>>>>>>>>get_count_T(120)
+<<<<<<<<get_count_T(120) = 79
+
+<<<<<<  N=1
+>>>>>>>>get_ans(120)
+<<<<<<<<get_ans(120) = 1
+
+<<<<<<run() = 1
+
+Case #61: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,20)
+<<<<<<<<<<least_common_multiple(1,20) = 20
+
+>>>>>>>>>>least_common_multiple(20,7)
+<<<<<<<<<<least_common_multiple(20,7) = 140
+
+>>>>>>>>>>least_common_multiple(140,13)
+<<<<<<<<<<least_common_multiple(140,13) = 1820
+
+>>>>>>>>>>least_common_multiple(1820,17)
+<<<<<<<<<<least_common_multiple(1820,17) = 30940
+
+>>>>>>>>>>least_common_multiple(30940,5)
+<<<<<<<<<<least_common_multiple(30940,5) = 30940
+
+<<<<<<<<get_lcm() = 30940
+
+>>>>>>>>get_count_T(30940)
+<<<<<<<<get_count_T(30940) = 16355
+
+<<<<<<  N=14218
+>>>>>>>>get_ans(30940)
+<<<<<<<<get_ans(30940) = 2
+
+<<<<<<run() = 2
+
+Case #62: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,4)
+<<<<<<<<<<least_common_multiple(1,4) = 4
+
+>>>>>>>>>>least_common_multiple(4,12)
+<<<<<<<<<<least_common_multiple(4,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,10)
+<<<<<<<<<<least_common_multiple(12,10) = 60
+
+>>>>>>>>>>least_common_multiple(60,4)
+<<<<<<<<<<least_common_multiple(60,4) = 60
+
+>>>>>>>>>>least_common_multiple(60,15)
+<<<<<<<<<<least_common_multiple(60,15) = 60
+
+<<<<<<<<get_lcm() = 60
+
+>>>>>>>>get_count_T(60)
+<<<<<<<<get_count_T(60) = 45
+
+<<<<<<  N=39
+>>>>>>>>get_ans(60)
+<<<<<<<<get_ans(60) = 2
+
+<<<<<<run() = 2
+
+Case #63: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,19)
+<<<<<<<<<<least_common_multiple(1,19) = 19
+
+>>>>>>>>>>least_common_multiple(19,1)
+<<<<<<<<<<least_common_multiple(19,1) = 19
+
+>>>>>>>>>>least_common_multiple(19,25)
+<<<<<<<<<<least_common_multiple(19,25) = 475
+
+>>>>>>>>>>least_common_multiple(475,16)
+<<<<<<<<<<least_common_multiple(475,16) = 7600
+
+>>>>>>>>>>least_common_multiple(7600,5)
+<<<<<<<<<<least_common_multiple(7600,5) = 7600
+
+<<<<<<<<get_lcm() = 7600
+
+>>>>>>>>get_count_T(7600)
+<<<<<<<<get_count_T(7600) = 10299
+
+<<<<<<  N=5421
+>>>>>>>>get_ans(7600)
+<<<<<<<<get_ans(7600) = 2
+
+<<<<<<run() = 2
+
+Case #64: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,17)
+<<<<<<<<<<least_common_multiple(1,17) = 17
+
+>>>>>>>>>>least_common_multiple(17,17)
+<<<<<<<<<<least_common_multiple(17,17) = 17
+
+>>>>>>>>>>least_common_multiple(17,8)
+<<<<<<<<<<least_common_multiple(17,8) = 136
+
+>>>>>>>>>>least_common_multiple(136,15)
+<<<<<<<<<<least_common_multiple(136,15) = 2040
+
+>>>>>>>>>>least_common_multiple(2040,7)
+<<<<<<<<<<least_common_multiple(2040,7) = 14280
+
+<<<<<<<<get_lcm() = 14280
+
+>>>>>>>>get_count_T(14280)
+<<<<<<<<get_count_T(14280) = 6457
+
+<<<<<<  N=1364
+>>>>>>>>get_ans(14280)
+<<<<<<<<get_ans(14280) = 2
+
+<<<<<<run() = 2
+
+Case #65: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,20)
+<<<<<<<<<<least_common_multiple(1,20) = 20
+
+>>>>>>>>>>least_common_multiple(20,7)
+<<<<<<<<<<least_common_multiple(20,7) = 140
+
+>>>>>>>>>>least_common_multiple(140,24)
+<<<<<<<<<<least_common_multiple(140,24) = 840
+
+>>>>>>>>>>least_common_multiple(840,7)
+<<<<<<<<<<least_common_multiple(840,7) = 840
+
+>>>>>>>>>>least_common_multiple(840,3)
+<<<<<<<<<<least_common_multiple(840,3) = 840
+
+<<<<<<<<get_lcm() = 840
+
+>>>>>>>>get_count_T(840)
+<<<<<<<<get_count_T(840) = 597
+
+<<<<<<  N=429
+>>>>>>>>get_ans(840)
+<<<<<<<<get_ans(840) = 3
+
+<<<<<<run() = 3
+
+Case #66: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,13)
+<<<<<<<<<<least_common_multiple(1,13) = 13
+
+>>>>>>>>>>least_common_multiple(13,7)
+<<<<<<<<<<least_common_multiple(13,7) = 91
+
+>>>>>>>>>>least_common_multiple(91,7)
+<<<<<<<<<<least_common_multiple(91,7) = 91
+
+>>>>>>>>>>least_common_multiple(91,23)
+<<<<<<<<<<least_common_multiple(91,23) = 2093
+
+<<<<<<<<get_lcm() = 2093
+
+>>>>>>>>get_count_T(2093)
+<<<<<<<<get_count_T(2093) = 2943
+
+<<<<<<  N=2925
+>>>>>>>>get_ans(2093)
+<<<<<<<<get_ans(2093) = 1
+
+<<<<<<run() = 1
+
+Case #67: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,12)
+<<<<<<<<<<least_common_multiple(1,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,11)
+<<<<<<<<<<least_common_multiple(12,11) = 132
+
+>>>>>>>>>>least_common_multiple(132,16)
+<<<<<<<<<<least_common_multiple(132,16) = 528
+
+>>>>>>>>>>least_common_multiple(528,2)
+<<<<<<<<<<least_common_multiple(528,2) = 528
+
+>>>>>>>>>>least_common_multiple(528,2)
+<<<<<<<<<<least_common_multiple(528,2) = 528
+
+<<<<<<<<get_lcm() = 528
+
+>>>>>>>>get_count_T(528)
+<<<<<<<<get_count_T(528) = 653
+
+<<<<<<  N=631
+>>>>>>>>get_ans(528)
+<<<<<<<<get_ans(528) = 4
+
+<<<<<<run() = 4
+
+Case #68: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,17)
+<<<<<<<<<<least_common_multiple(1,17) = 17
+
+>>>>>>>>>>least_common_multiple(17,10)
+<<<<<<<<<<least_common_multiple(17,10) = 170
+
+>>>>>>>>>>least_common_multiple(170,21)
+<<<<<<<<<<least_common_multiple(170,21) = 3570
+
+>>>>>>>>>>least_common_multiple(3570,10)
+<<<<<<<<<<least_common_multiple(3570,10) = 3570
+
+>>>>>>>>>>least_common_multiple(3570,20)
+<<<<<<<<<<least_common_multiple(3570,20) = 7140
+
+<<<<<<<<get_lcm() = 7140
+
+>>>>>>>>get_count_T(7140)
+<<<<<<<<get_count_T(7140) = 2545
+
+<<<<<<  N=2081
+>>>>>>>>get_ans(7140)
+<<<<<<<<get_ans(7140) = 4
+
+<<<<<<run() = 4
+
+Case #69: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,10)
+<<<<<<<<<<least_common_multiple(1,10) = 10
+
+>>>>>>>>>>least_common_multiple(10,15)
+<<<<<<<<<<least_common_multiple(10,15) = 30
+
+>>>>>>>>>>least_common_multiple(30,4)
+<<<<<<<<<<least_common_multiple(30,4) = 60
+
+>>>>>>>>>>least_common_multiple(60,14)
+<<<<<<<<<<least_common_multiple(60,14) = 420
+
+>>>>>>>>>>least_common_multiple(420,14)
+<<<<<<<<<<least_common_multiple(420,14) = 420
+
+<<<<<<<<get_lcm() = 420
+
+>>>>>>>>get_count_T(420)
+<<<<<<<<get_count_T(420) = 235
+
+<<<<<<  N=109
+>>>>>>>>get_ans(420)
+<<<<<<<<get_ans(420) = 1
+
+<<<<<<run() = 1
+
+Case #70: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,17)
+<<<<<<<<<<least_common_multiple(1,17) = 17
+
+>>>>>>>>>>least_common_multiple(17,2)
+<<<<<<<<<<least_common_multiple(17,2) = 34
+
+>>>>>>>>>>least_common_multiple(34,8)
+<<<<<<<<<<least_common_multiple(34,8) = 136
+
+>>>>>>>>>>least_common_multiple(136,20)
+<<<<<<<<<<least_common_multiple(136,20) = 680
+
+>>>>>>>>>>least_common_multiple(680,8)
+<<<<<<<<<<least_common_multiple(680,8) = 680
+
+<<<<<<<<get_lcm() = 680
+
+>>>>>>>>get_count_T(680)
+<<<<<<<<get_count_T(680) = 584
+
+<<<<<<  N=53
+>>>>>>>>get_ans(680)
+<<<<<<<<get_ans(680) = 2
+
+<<<<<<run() = 2
+
+Case #71: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,14)
+<<<<<<<<<<least_common_multiple(1,14) = 14
+
+>>>>>>>>>>least_common_multiple(14,9)
+<<<<<<<<<<least_common_multiple(14,9) = 126
+
+>>>>>>>>>>least_common_multiple(126,1)
+<<<<<<<<<<least_common_multiple(126,1) = 126
+
+>>>>>>>>>>least_common_multiple(126,20)
+<<<<<<<<<<least_common_multiple(126,20) = 1260
+
+>>>>>>>>>>least_common_multiple(1260,24)
+<<<<<<<<<<least_common_multiple(1260,24) = 2520
+
+<<<<<<<<get_lcm() = 2520
+
+>>>>>>>>get_count_T(2520)
+<<<<<<<<get_count_T(2520) = 3211
+
+<<<<<<  N=284
+>>>>>>>>get_ans(2520)
+<<<<<<<<get_ans(2520) = 4
+
+<<<<<<run() = 4
+
+Case #72: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,19)
+<<<<<<<<<<least_common_multiple(1,19) = 19
+
+>>>>>>>>>>least_common_multiple(19,15)
+<<<<<<<<<<least_common_multiple(19,15) = 285
+
+>>>>>>>>>>least_common_multiple(285,11)
+<<<<<<<<<<least_common_multiple(285,11) = 3135
+
+>>>>>>>>>>least_common_multiple(3135,9)
+<<<<<<<<<<least_common_multiple(3135,9) = 9405
+
+>>>>>>>>>>least_common_multiple(9405,20)
+<<<<<<<<<<least_common_multiple(9405,20) = 37620
+
+<<<<<<<<get_lcm() = 37620
+
+>>>>>>>>get_count_T(37620)
+<<<<<<<<get_count_T(37620) = 13969
+
+<<<<<<  N=10624
+>>>>>>>>get_ans(37620)
+<<<<<<<<get_ans(37620) = 4
+
+<<<<<<run() = 4
+
+Case #73: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,13)
+<<<<<<<<<<least_common_multiple(1,13) = 13
+
+>>>>>>>>>>least_common_multiple(13,20)
+<<<<<<<<<<least_common_multiple(13,20) = 260
+
+>>>>>>>>>>least_common_multiple(260,23)
+<<<<<<<<<<least_common_multiple(260,23) = 5980
+
+>>>>>>>>>>least_common_multiple(5980,24)
+<<<<<<<<<<least_common_multiple(5980,24) = 35880
+
+>>>>>>>>>>least_common_multiple(35880,9)
+<<<<<<<<<<least_common_multiple(35880,9) = 107640
+
+<<<<<<<<get_lcm() = 107640
+
+>>>>>>>>get_count_T(107640)
+<<<<<<<<get_count_T(107640) = 34787
+
+<<<<<<  N=12715
+>>>>>>>>get_ans(107640)
+<<<<<<<<get_ans(107640) = 4
+
+<<<<<<run() = 4
+
+Case #74: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,21)
+<<<<<<<<<<least_common_multiple(1,21) = 21
+
+>>>>>>>>>>least_common_multiple(21,17)
+<<<<<<<<<<least_common_multiple(21,17) = 357
+
+>>>>>>>>>>least_common_multiple(357,2)
+<<<<<<<<<<least_common_multiple(357,2) = 714
+
+>>>>>>>>>>least_common_multiple(714,23)
+<<<<<<<<<<least_common_multiple(714,23) = 16422
+
+>>>>>>>>>>least_common_multiple(16422,1)
+<<<<<<<<<<least_common_multiple(16422,1) = 16422
+
+<<<<<<<<get_lcm() = 16422
+
+>>>>>>>>get_count_T(16422)
+<<<<<<<<get_count_T(16422) = 27095
+
+<<<<<<  N=23250
+>>>>>>>>get_ans(16422)
+<<<<<<<<get_ans(16422) = 5
+
+<<<<<<run() = 5
+
+Case #75: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,15)
+<<<<<<<<<<least_common_multiple(1,15) = 15
+
+>>>>>>>>>>least_common_multiple(15,10)
+<<<<<<<<<<least_common_multiple(15,10) = 30
+
+>>>>>>>>>>least_common_multiple(30,8)
+<<<<<<<<<<least_common_multiple(30,8) = 120
+
+>>>>>>>>>>least_common_multiple(120,7)
+<<<<<<<<<<least_common_multiple(120,7) = 840
+
+>>>>>>>>>>least_common_multiple(840,6)
+<<<<<<<<<<least_common_multiple(840,6) = 840
+
+<<<<<<<<get_lcm() = 840
+
+>>>>>>>>get_count_T(840)
+<<<<<<<<get_count_T(840) = 505
+
+<<<<<<  N=5
+>>>>>>>>get_ans(840)
+<<<<<<<<get_ans(840) = 5
+
+<<<<<<run() = 5
+
+Case #76: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,9)
+<<<<<<<<<<least_common_multiple(1,9) = 9
+
+>>>>>>>>>>least_common_multiple(9,21)
+<<<<<<<<<<least_common_multiple(9,21) = 63
+
+>>>>>>>>>>least_common_multiple(63,17)
+<<<<<<<<<<least_common_multiple(63,17) = 1071
+
+>>>>>>>>>>least_common_multiple(1071,14)
+<<<<<<<<<<least_common_multiple(1071,14) = 2142
+
+>>>>>>>>>>least_common_multiple(2142,5)
+<<<<<<<<<<least_common_multiple(2142,5) = 10710
+
+<<<<<<<<get_lcm() = 10710
+
+>>>>>>>>get_count_T(10710)
+<<<<<<<<get_count_T(10710) = 5237
+
+<<<<<<  N=804
+>>>>>>>>get_ans(10710)
+<<<<<<<<get_ans(10710) = 2
+
+<<<<<<run() = 2
+
+Case #77: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,9)
+<<<<<<<<<<least_common_multiple(1,9) = 9
+
+>>>>>>>>>>least_common_multiple(9,21)
+<<<<<<<<<<least_common_multiple(9,21) = 63
+
+>>>>>>>>>>least_common_multiple(63,19)
+<<<<<<<<<<least_common_multiple(63,19) = 1197
+
+>>>>>>>>>>least_common_multiple(1197,10)
+<<<<<<<<<<least_common_multiple(1197,10) = 11970
+
+>>>>>>>>>>least_common_multiple(11970,15)
+<<<<<<<<<<least_common_multiple(11970,15) = 11970
+
+<<<<<<<<get_lcm() = 11970
+
+>>>>>>>>get_count_T(11970)
+<<<<<<<<get_count_T(11970) = 4525
+
+<<<<<<  N=493
+>>>>>>>>get_ans(11970)
+<<<<<<<<get_ans(11970) = 1
+
+<<<<<<run() = 1
+
+Case #78: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,1)
+<<<<<<<<<<least_common_multiple(1,1) = 1
+
+>>>>>>>>>>least_common_multiple(1,22)
+<<<<<<<<<<least_common_multiple(1,22) = 22
+
+>>>>>>>>>>least_common_multiple(22,12)
+<<<<<<<<<<least_common_multiple(22,12) = 132
+
+>>>>>>>>>>least_common_multiple(132,9)
+<<<<<<<<<<least_common_multiple(132,9) = 396
+
+>>>>>>>>>>least_common_multiple(396,14)
+<<<<<<<<<<least_common_multiple(396,14) = 2772
+
+<<<<<<<<get_lcm() = 2772
+
+>>>>>>>>get_count_T(2772)
+<<<<<<<<get_count_T(2772) = 3635
+
+<<<<<<  N=2014
+>>>>>>>>get_ans(2772)
+<<<<<<<<get_ans(2772) = 1
+
+<<<<<<run() = 1
+
+Case #79: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,14)
+<<<<<<<<<<least_common_multiple(1,14) = 14
+
+>>>>>>>>>>least_common_multiple(14,10)
+<<<<<<<<<<least_common_multiple(14,10) = 70
+
+>>>>>>>>>>least_common_multiple(70,20)
+<<<<<<<<<<least_common_multiple(70,20) = 140
+
+>>>>>>>>>>least_common_multiple(140,15)
+<<<<<<<<<<least_common_multiple(140,15) = 420
+
+>>>>>>>>>>least_common_multiple(420,7)
+<<<<<<<<<<least_common_multiple(420,7) = 420
+
+<<<<<<<<get_lcm() = 420
+
+>>>>>>>>get_count_T(420)
+<<<<<<<<get_count_T(420) = 181
+
+<<<<<<  N=109
+>>>>>>>>get_ans(420)
+<<<<<<<<get_ans(420) = 5
+
+<<<<<<run() = 5
+
+Case #80: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,24)
+<<<<<<<<<<least_common_multiple(1,24) = 24
+
+>>>>>>>>>>least_common_multiple(24,9)
+<<<<<<<<<<least_common_multiple(24,9) = 72
+
+>>>>>>>>>>least_common_multiple(72,15)
+<<<<<<<<<<least_common_multiple(72,15) = 360
+
+>>>>>>>>>>least_common_multiple(360,14)
+<<<<<<<<<<least_common_multiple(360,14) = 2520
+
+>>>>>>>>>>least_common_multiple(2520,3)
+<<<<<<<<<<least_common_multiple(2520,3) = 2520
+
+<<<<<<<<get_lcm() = 2520
+
+>>>>>>>>get_count_T(2520)
+<<<<<<<<get_count_T(2520) = 1573
+
+<<<<<<  N=157
+>>>>>>>>get_ans(2520)
+<<<<<<<<get_ans(2520) = 5
+
+<<<<<<run() = 5
+
+Case #81: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,7)
+<<<<<<<<<<least_common_multiple(1,7) = 7
+
+>>>>>>>>>>least_common_multiple(7,5)
+<<<<<<<<<<least_common_multiple(7,5) = 35
+
+>>>>>>>>>>least_common_multiple(35,22)
+<<<<<<<<<<least_common_multiple(35,22) = 770
+
+>>>>>>>>>>least_common_multiple(770,19)
+<<<<<<<<<<least_common_multiple(770,19) = 14630
+
+>>>>>>>>>>least_common_multiple(14630,14)
+<<<<<<<<<<least_common_multiple(14630,14) = 14630
+
+<<<<<<<<get_lcm() = 14630
+
+>>>>>>>>get_count_T(14630)
+<<<<<<<<get_count_T(14630) = 7496
+
+<<<<<<  N=6275
+>>>>>>>>get_ans(14630)
+<<<<<<<<get_ans(14630) = 2
+
+<<<<<<run() = 2
+
+Case #82: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,23)
+<<<<<<<<<<least_common_multiple(1,23) = 23
+
+>>>>>>>>>>least_common_multiple(23,4)
+<<<<<<<<<<least_common_multiple(23,4) = 92
+
+>>>>>>>>>>least_common_multiple(92,24)
+<<<<<<<<<<least_common_multiple(92,24) = 552
+
+>>>>>>>>>>least_common_multiple(552,13)
+<<<<<<<<<<least_common_multiple(552,13) = 7176
+
+>>>>>>>>>>least_common_multiple(7176,6)
+<<<<<<<<<<least_common_multiple(7176,6) = 7176
+
+<<<<<<<<get_lcm() = 7176
+
+>>>>>>>>get_count_T(7176)
+<<<<<<<<get_count_T(7176) = 4153
+
+<<<<<<  N=3962
+>>>>>>>>get_ans(7176)
+<<<<<<<<get_ans(7176) = 3
+
+<<<<<<run() = 3
+
+Case #83: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,6)
+<<<<<<<<<<least_common_multiple(1,6) = 6
+
+>>>>>>>>>>least_common_multiple(6,20)
+<<<<<<<<<<least_common_multiple(6,20) = 60
+
+>>>>>>>>>>least_common_multiple(60,7)
+<<<<<<<<<<least_common_multiple(60,7) = 420
+
+>>>>>>>>>>least_common_multiple(420,12)
+<<<<<<<<<<least_common_multiple(420,12) = 420
+
+>>>>>>>>>>least_common_multiple(420,25)
+<<<<<<<<<<least_common_multiple(420,25) = 2100
+
+<<<<<<<<get_lcm() = 2100
+
+>>>>>>>>get_count_T(2100)
+<<<<<<<<get_count_T(2100) = 1014
+
+<<<<<<  N=463
+>>>>>>>>get_ans(2100)
+<<<<<<<<get_ans(2100) = 3
+
+<<<<<<run() = 3
+
+Case #84: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,12)
+<<<<<<<<<<least_common_multiple(1,12) = 12
+
+>>>>>>>>>>least_common_multiple(12,15)
+<<<<<<<<<<least_common_multiple(12,15) = 60
+
+>>>>>>>>>>least_common_multiple(60,5)
+<<<<<<<<<<least_common_multiple(60,5) = 60
+
+>>>>>>>>>>least_common_multiple(60,19)
+<<<<<<<<<<least_common_multiple(60,19) = 1140
+
+>>>>>>>>>>least_common_multiple(1140,12)
+<<<<<<<<<<least_common_multiple(1140,12) = 1140
+
+<<<<<<<<get_lcm() = 1140
+
+>>>>>>>>get_count_T(1140)
+<<<<<<<<get_count_T(1140) = 554
+
+<<<<<<  N=111
+>>>>>>>>get_ans(1140)
+<<<<<<<<get_ans(1140) = 2
+
+<<<<<<run() = 2
+
+Case #85: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,14)
+<<<<<<<<<<least_common_multiple(1,14) = 14
+
+>>>>>>>>>>least_common_multiple(14,4)
+<<<<<<<<<<least_common_multiple(14,4) = 28
+
+>>>>>>>>>>least_common_multiple(28,11)
+<<<<<<<<<<least_common_multiple(28,11) = 308
+
+>>>>>>>>>>least_common_multiple(308,22)
+<<<<<<<<<<least_common_multiple(308,22) = 308
+
+>>>>>>>>>>least_common_multiple(308,25)
+<<<<<<<<<<least_common_multiple(308,25) = 7700
+
+<<<<<<<<get_lcm() = 7700
+
+>>>>>>>>get_count_T(7700)
+<<<<<<<<get_count_T(7700) = 3833
+
+<<<<<<  N=472
+>>>>>>>>get_ans(7700)
+<<<<<<<<get_ans(7700) = 2
+
+<<<<<<run() = 2
+
+Case #86: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,10)
+<<<<<<<<<<least_common_multiple(1,10) = 10
+
+>>>>>>>>>>least_common_multiple(10,8)
+<<<<<<<<<<least_common_multiple(10,8) = 40
+
+>>>>>>>>>>least_common_multiple(40,24)
+<<<<<<<<<<least_common_multiple(40,24) = 120
+
+>>>>>>>>>>least_common_multiple(120,7)
+<<<<<<<<<<least_common_multiple(120,7) = 840
+
+>>>>>>>>>>least_common_multiple(840,23)
+<<<<<<<<<<least_common_multiple(840,23) = 19320
+
+<<<<<<<<get_lcm() = 19320
+
+>>>>>>>>get_count_T(19320)
+<<<<<<<<get_count_T(19320) = 8752
+
+<<<<<<  N=6916
+>>>>>>>>get_ans(19320)
+<<<<<<<<get_ans(19320) = 4
+
+<<<<<<run() = 4
+
+Case #87: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,25)
+<<<<<<<<<<least_common_multiple(1,25) = 25
+
+>>>>>>>>>>least_common_multiple(25,9)
+<<<<<<<<<<least_common_multiple(25,9) = 225
+
+>>>>>>>>>>least_common_multiple(225,24)
+<<<<<<<<<<least_common_multiple(225,24) = 1800
+
+>>>>>>>>>>least_common_multiple(1800,6)
+<<<<<<<<<<least_common_multiple(1800,6) = 1800
+
+>>>>>>>>>>least_common_multiple(1800,2)
+<<<<<<<<<<least_common_multiple(1800,2) = 1800
+
+<<<<<<<<get_lcm() = 1800
+
+>>>>>>>>get_count_T(1800)
+<<<<<<<<get_count_T(1800) = 1547
+
+<<<<<<  N=1159
+>>>>>>>>get_ans(1800)
+<<<<<<<<get_ans(1800) = 5
+
+<<<<<<run() = 5
+
+Case #88: 5
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,18)
+<<<<<<<<<<least_common_multiple(1,18) = 18
+
+>>>>>>>>>>least_common_multiple(18,7)
+<<<<<<<<<<least_common_multiple(18,7) = 126
+
+>>>>>>>>>>least_common_multiple(126,21)
+<<<<<<<<<<least_common_multiple(126,21) = 126
+
+>>>>>>>>>>least_common_multiple(126,11)
+<<<<<<<<<<least_common_multiple(126,11) = 1386
+
+>>>>>>>>>>least_common_multiple(1386,25)
+<<<<<<<<<<least_common_multiple(1386,25) = 34650
+
+<<<<<<<<get_lcm() = 34650
+
+>>>>>>>>get_count_T(34650)
+<<<<<<<<get_count_T(34650) = 13061
+
+<<<<<<  N=9337
+>>>>>>>>get_ans(34650)
+<<<<<<<<get_ans(34650) = 4
+
+<<<<<<run() = 4
+
+Case #89: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,11)
+<<<<<<<<<<least_common_multiple(1,11) = 11
+
+>>>>>>>>>>least_common_multiple(11,20)
+<<<<<<<<<<least_common_multiple(11,20) = 220
+
+>>>>>>>>>>least_common_multiple(220,10)
+<<<<<<<<<<least_common_multiple(220,10) = 220
+
+>>>>>>>>>>least_common_multiple(220,18)
+<<<<<<<<<<least_common_multiple(220,18) = 1980
+
+>>>>>>>>>>least_common_multiple(1980,23)
+<<<<<<<<<<least_common_multiple(1980,23) = 45540
+
+<<<<<<<<get_lcm() = 45540
+
+>>>>>>>>get_count_T(45540)
+<<<<<<<<get_count_T(45540) = 15481
+
+<<<<<<  N=4988
+>>>>>>>>get_ans(45540)
+<<<<<<<<get_ans(45540) = 1
+
+<<<<<<run() = 1
+
+Case #90: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,14)
+<<<<<<<<<<least_common_multiple(1,14) = 14
+
+>>>>>>>>>>least_common_multiple(14,13)
+<<<<<<<<<<least_common_multiple(14,13) = 182
+
+>>>>>>>>>>least_common_multiple(182,6)
+<<<<<<<<<<least_common_multiple(182,6) = 546
+
+>>>>>>>>>>least_common_multiple(546,2)
+<<<<<<<<<<least_common_multiple(546,2) = 546
+
+>>>>>>>>>>least_common_multiple(546,16)
+<<<<<<<<<<least_common_multiple(546,16) = 4368
+
+<<<<<<<<get_lcm() = 4368
+
+>>>>>>>>get_count_T(4368)
+<<<<<<<<get_count_T(4368) = 3833
+
+<<<<<<  N=2564
+>>>>>>>>get_ans(4368)
+<<<<<<<<get_ans(4368) = 4
+
+<<<<<<run() = 4
+
+Case #91: 4
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,11)
+<<<<<<<<<<least_common_multiple(1,11) = 11
+
+>>>>>>>>>>least_common_multiple(11,18)
+<<<<<<<<<<least_common_multiple(11,18) = 198
+
+>>>>>>>>>>least_common_multiple(198,14)
+<<<<<<<<<<least_common_multiple(198,14) = 1386
+
+>>>>>>>>>>least_common_multiple(1386,9)
+<<<<<<<<<<least_common_multiple(1386,9) = 1386
+
+>>>>>>>>>>least_common_multiple(1386,16)
+<<<<<<<<<<least_common_multiple(1386,16) = 11088
+
+<<<<<<<<get_lcm() = 11088
+
+>>>>>>>>get_count_T(11088)
+<<<<<<<<get_count_T(11088) = 4341
+
+<<<<<<  N=38
+>>>>>>>>get_ans(11088)
+<<<<<<<<get_ans(11088) = 2
+
+<<<<<<run() = 2
+
+Case #92: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,14)
+<<<<<<<<<<least_common_multiple(1,14) = 14
+
+>>>>>>>>>>least_common_multiple(14,23)
+<<<<<<<<<<least_common_multiple(14,23) = 322
+
+>>>>>>>>>>least_common_multiple(322,8)
+<<<<<<<<<<least_common_multiple(322,8) = 1288
+
+>>>>>>>>>>least_common_multiple(1288,22)
+<<<<<<<<<<least_common_multiple(1288,22) = 14168
+
+>>>>>>>>>>least_common_multiple(14168,2)
+<<<<<<<<<<least_common_multiple(14168,2) = 14168
+
+<<<<<<<<get_lcm() = 14168
+
+>>>>>>>>get_count_T(14168)
+<<<<<<<<get_count_T(14168) = 11127
+
+<<<<<<  N=1375
+>>>>>>>>get_ans(14168)
+<<<<<<<<get_ans(14168) = 2
+
+<<<<<<run() = 2
+
+Case #93: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,6)
+<<<<<<<<<<least_common_multiple(1,6) = 6
+
+>>>>>>>>>>least_common_multiple(6,24)
+<<<<<<<<<<least_common_multiple(6,24) = 24
+
+>>>>>>>>>>least_common_multiple(24,15)
+<<<<<<<<<<least_common_multiple(24,15) = 120
+
+>>>>>>>>>>least_common_multiple(120,14)
+<<<<<<<<<<least_common_multiple(120,14) = 840
+
+>>>>>>>>>>least_common_multiple(840,21)
+<<<<<<<<<<least_common_multiple(840,21) = 840
+
+<<<<<<<<get_lcm() = 840
+
+>>>>>>>>get_count_T(840)
+<<<<<<<<get_count_T(840) = 331
+
+<<<<<<  N=97
+>>>>>>>>get_ans(840)
+<<<<<<<<get_ans(840) = 1
+
+<<<<<<run() = 1
+
+Case #94: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,19)
+<<<<<<<<<<least_common_multiple(1,19) = 19
+
+>>>>>>>>>>least_common_multiple(19,20)
+<<<<<<<<<<least_common_multiple(19,20) = 380
+
+>>>>>>>>>>least_common_multiple(380,12)
+<<<<<<<<<<least_common_multiple(380,12) = 1140
+
+>>>>>>>>>>least_common_multiple(1140,25)
+<<<<<<<<<<least_common_multiple(1140,25) = 5700
+
+>>>>>>>>>>least_common_multiple(5700,14)
+<<<<<<<<<<least_common_multiple(5700,14) = 39900
+
+<<<<<<<<get_lcm() = 39900
+
+>>>>>>>>get_count_T(39900)
+<<<<<<<<get_count_T(39900) = 11866
+
+<<<<<<  N=6622
+>>>>>>>>get_ans(39900)
+<<<<<<<<get_ans(39900) = 2
+
+<<<<<<run() = 2
+
+Case #95: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,3)
+<<<<<<<<<<least_common_multiple(1,3) = 3
+
+>>>>>>>>>>least_common_multiple(3,23)
+<<<<<<<<<<least_common_multiple(3,23) = 69
+
+>>>>>>>>>>least_common_multiple(69,17)
+<<<<<<<<<<least_common_multiple(69,17) = 1173
+
+>>>>>>>>>>least_common_multiple(1173,9)
+<<<<<<<<<<least_common_multiple(1173,9) = 3519
+
+>>>>>>>>>>least_common_multiple(3519,1)
+<<<<<<<<<<least_common_multiple(3519,1) = 3519
+
+<<<<<<<<get_lcm() = 3519
+
+>>>>>>>>get_count_T(3519)
+<<<<<<<<get_count_T(3519) = 5443
+
+<<<<<<  N=1873
+>>>>>>>>get_ans(3519)
+<<<<<<<<get_ans(3519) = 1
+
+<<<<<<run() = 1
+
+Case #96: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,11)
+<<<<<<<<<<least_common_multiple(1,11) = 11
+
+>>>>>>>>>>least_common_multiple(11,12)
+<<<<<<<<<<least_common_multiple(11,12) = 132
+
+>>>>>>>>>>least_common_multiple(132,21)
+<<<<<<<<<<least_common_multiple(132,21) = 924
+
+>>>>>>>>>>least_common_multiple(924,15)
+<<<<<<<<<<least_common_multiple(924,15) = 4620
+
+>>>>>>>>>>least_common_multiple(4620,3)
+<<<<<<<<<<least_common_multiple(4620,3) = 4620
+
+<<<<<<<<get_lcm() = 4620
+
+>>>>>>>>get_count_T(4620)
+<<<<<<<<get_count_T(4620) = 2873
+
+<<<<<<  N=1343
+>>>>>>>>get_ans(4620)
+<<<<<<<<get_ans(4620) = 1
+
+<<<<<<run() = 1
+
+Case #97: 1
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,14)
+<<<<<<<<<<least_common_multiple(1,14) = 14
+
+>>>>>>>>>>least_common_multiple(14,13)
+<<<<<<<<<<least_common_multiple(14,13) = 182
+
+>>>>>>>>>>least_common_multiple(182,14)
+<<<<<<<<<<least_common_multiple(182,14) = 182
+
+>>>>>>>>>>least_common_multiple(182,24)
+<<<<<<<<<<least_common_multiple(182,24) = 2184
+
+>>>>>>>>>>least_common_multiple(2184,24)
+<<<<<<<<<<least_common_multiple(2184,24) = 2184
+
+<<<<<<<<get_lcm() = 2184
+
+>>>>>>>>get_count_T(2184)
+<<<<<<<<get_count_T(2184) = 662
+
+<<<<<<  N=410
+>>>>>>>>get_ans(2184)
+<<<<<<<<get_ans(2184) = 3
+
+<<<<<<run() = 3
+
+Case #98: 3
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,21)
+<<<<<<<<<<least_common_multiple(1,21) = 21
+
+>>>>>>>>>>least_common_multiple(21,5)
+<<<<<<<<<<least_common_multiple(21,5) = 105
+
+>>>>>>>>>>least_common_multiple(105,8)
+<<<<<<<<<<least_common_multiple(105,8) = 840
+
+>>>>>>>>>>least_common_multiple(840,22)
+<<<<<<<<<<least_common_multiple(840,22) = 9240
+
+>>>>>>>>>>least_common_multiple(9240,20)
+<<<<<<<<<<least_common_multiple(9240,20) = 9240
+
+<<<<<<<<get_lcm() = 9240
+
+>>>>>>>>get_count_T(9240)
+<<<<<<<<get_count_T(9240) = 4325
+
+<<<<<<  N=860
+>>>>>>>>get_ans(9240)
+<<<<<<<<get_ans(9240) = 2
+
+<<<<<<run() = 2
+
+Case #99: 2
+>>>>>>handle_input()
+<<<<<<handle_input()
+
+>>>>>>init_per_case()
+<<<<<<init_per_case()
+
+>>>>>>run()
+>>>>>>>>get_lcm()
+>>>>>>>>>>least_common_multiple(1,13)
+<<<<<<<<<<least_common_multiple(1,13) = 13
+
+>>>>>>>>>>least_common_multiple(13,22)
+<<<<<<<<<<least_common_multiple(13,22) = 286
+
+>>>>>>>>>>least_common_multiple(286,19)
+<<<<<<<<<<least_common_multiple(286,19) = 5434
+
+>>>>>>>>>>least_common_multiple(5434,7)
+<<<<<<<<<<least_common_multiple(5434,7) = 38038
+
+>>>>>>>>>>least_common_multiple(38038,2)
+<<<<<<<<<<least_common_multiple(38038,2) = 38038
+
+<<<<<<<<get_lcm() = 38038
+
+>>>>>>>>get_count_T(38038)
+<<<<<<<<get_count_T(38038) = 31110
+
+<<<<<<  N=15653
+>>>>>>>>get_ans(38038)
+<<<<<<<<get_ans(38038) = 1
+
+<<<<<<run() = 1
+
+Case #100: 1
+<<main()
