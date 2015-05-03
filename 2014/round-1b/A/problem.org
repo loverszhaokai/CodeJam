@@ -1,0 +1,92 @@
+* Problem 
+
+
+** Problem
+
+_Fegla_  writes down  _N_  strings. 
+
+_Omar_ 's task is to  _make all the strings identical_ , 
+if possible, using the  _minimum number of actions_  (possibly 0 actions) of the following two types:
+
+	Select  _any_  character in  _any_  of the strings 
+	and  _repeat it_  (add another instance of this character exactly after it). 
+		
+		For example, in a single move  _Omar_  can change "abc" to "abbc" (by repeating the character 'b').
+
+	Select  _any two adjacent_  and  _identical characters_ in any of the strings, 
+	and  _delete one of them_. 
+
+		For example, in a single move  _Omar_  can change "abbc" to "abc" 
+		(delete one of the 'b' characters), but can't convert it to "bbc".
+
+The 2 actions are independent; it's not necessary that an action of the first type 
+should be followed by an action of the second type (or vice versa).
+
+Help  _Omar_  to win this game by writing a program to find 
+if it is possible to make the given strings identical, 
+and to find the minimum number of moves if it is possible.
+
+
+** Input
+
+Each test case starts with a line containing an integer N which is the number of strings. 
+Followed by N lines, 
+each line contains a non-empty string 
+(each string will consist of lower case English characters only, from 'a' to 'z').
+
+** Output
+
+y is the minimum number of moves to make the strings identical. 
+If there is no possible way to make all strings identical, 
+print "Fegla Won" (quotes for clarity).
+
+** Limits
+
+1 ≤ T ≤ 100.
+1 ≤ length of each string ≤ 100.
+
+*** Small dataset
+
+N = 2.
+
+*** Large dataset
+
+2 ≤ N ≤ 100.
+
+** Sample
+
+
+*** Input
+
+5
+
+2
+*** mmaw
+maw
+
+2
+gcj
+cj
+
+3
+aaabbb
+ab
+aabb
+
+2
+abc
+abc
+
+3
+aabc
+abbc
+abcc
+
+*** Output
+
+Case #1: 1
+Case #2: Fegla Won
+Case #3: 4
+Case #4: 0
+Case #5: 3
+

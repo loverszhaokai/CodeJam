@@ -1,0 +1,63 @@
+* Problem 
+
+
+** Problem
+
+You are a landlord who owns a building that is an  _R x C_  grid of apartments; 
+each apartment is a unit square cell with  _four walls_ 
+
+You want to rent out  _N_  of these apartments to tenants, 
+with exactly one tenant per apartment, and leave the others empty. 
+
+Unfortunately, all of your potential tenants are noisy, 
+so whenever any two occupied apartments share a wall (and not just a corner), 
+this will add  _one point of unhappiness_ to the building. 
+
+For example, a  2x2  building in which every apartment is occupied has four walls 
+that are shared by neighboring tenants, and so the building's unhappiness score is 4.
+
+If you place your N tenants optimally,  _what is the minimum unhappiness value for your building_ ?
+
+
+** Input
+
+each contains three space-separated integers: R, C, and N.
+
+** Output
+
+
+
+** Limits
+
+1 ≤ T ≤ 1000.
+0 ≤ N ≤ R*C.
+
+*** Small dataset
+
+1 ≤ R*C ≤ 16.
+
+
+*** Large dataset
+
+1 ≤ R*C ≤ 10000.
+
+
+** Sample
+
+
+*** Input
+
+4
+2 3 6
+4 1 2
+3 3 8
+5 2 0
+
+
+*** Output
+
+Case #1: 7
+Case #2: 0
+Case #3: 8
+Case #4: 0
+

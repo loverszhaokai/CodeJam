@@ -1,0 +1,61 @@
+* Problem 
+
+
+** Problem
+
+In the Counting Poetry Slam, a performer takes the microphone, 
+chooses a number N, and counts aloud from 1 to N. 
+
+That is, she  _starts by saying 1_ , and then repeatedly says the number 
+that is  _1 greater than the previous number she said_  stopping after she has said  _N_
+
+
+It's your turn to perform, but you find this process tedious, 
+and you want to add a twist to speed it up: 
+sometimes,  _instead of adding 1 to the previous number_ , 
+you might   _reverse the digits of the number_ 
+(removing any leading zeroes that this creates). 
+
+	For example, after saying "16",   you could next say either "17" or "61"; 
+		     after saying "2300", you could next say either "2301" or "32". 
+	You may reverse as many times as you want (or not at all) within a performance.
+
+The first number you say must be 1; 
+
+_what is the fewest number of numbers you will need to say in order to reach the number N?_ 
+
+1 and N count toward this total. 
+
+If you say the same number multiple times, each of those times counts separately.
+
+
+
+
+
+** Input
+
+
+** Output
+
+
+** Limits
+
+
+*** Small dataset
+
+
+*** Large dataset
+
+
+
+** Sample
+
+
+*** Input
+
+
+
+*** Output
+
+
+
