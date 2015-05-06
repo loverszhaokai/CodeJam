@@ -14,6 +14,8 @@
 #include <sstream>
 #include <deque>
 
+#include <fstream>
+
 using namespace std;
 
 #define mp make_pair
@@ -51,40 +53,95 @@ int was[500000];
 
 set<pair<ll, int> > all;
 
+fstream log_fs;
+
+void print_all()
+{
+        log_fs << "\tprint_all()" << endl;
+	set<pair<ll, int> >::iterator it = all.begin();
+        while (it != all.end()) {
+		log_fs << "\t\t" << it->first << "  " << it->second << endl;
+                it++;
+        }
+	log_fs << endl;
+}
+
 int main () {
+
+
+	log_fs.open("log.txt", std::fstream::out);
+
 	int tt;
 	cin >> tt;
 	for (int it = 1; it <= tt; it++) {
+
+                log_fs << "====Case " << it << endl;
 		scanf ("%d", &n);
-		int o = 0;
+		int ooo = 0;
 		for (int i = 0; i < n; i++) {
 			int d, h, m;
 			scanf ("%d%d%d", &d, &h, &m);
 			for (int j = 0; j < h; j++) {
-				::d[o] = d;
-				::t[o] = m + j;
-				was[o] = 0;
-				o++;
+				::d[ooo] = d;
+				::t[ooo] = m + j;
+				was[ooo] = 0;
+				ooo++;
 			}
 		}
+
+		log_fs << "\tt=" << endl << "\t";
+		for (int kkk = 0; kkk < ooo; kkk++) {
+			log_fs << "\tt[" << kkk << "]=" << t[kkk];
+                }
+                log_fs << endl << endl;
+
 		all.clear ();
-		int cur = o, ans = o;
-		for (int i = 0; i < o; i++) all.insert (mp ((ll)(360 - d[i]) * t[i], i));
-		ll last = 0;
-		while (cur <= 2 * o) {
+
+		int cur = ooo, ans = ooo;
+
+		for (int i = 0; i < ooo; i++) 
+			all.insert (mp ((ll)(360 - d[i]) * t[i], i));
+
+		ll last_x = 0;
+		while (cur <= 2 * ooo) {
+
+	                print_all();
+
 			ll x = all.begin ()->fi;
 			int y = all.begin ()->se;
+
+                        log_fs << "\tx=" << x << endl;
+                        log_fs << "\ty=" << y << endl << endl;
+
 			all.erase (all.begin ());
-			if (x > last) ans = min (ans, cur);
-			last = x;
-			if (was[y]) cur++; else cur--;
-//			printf ("%I64d %d : %d %d\n", x, y, cur, was[y]);
+
+			if (x > last_x)
+				ans = min (ans, cur);
+			last_x = x;
+
+			if (was[y])
+				cur++; 
+			else 
+				cur--;
+
+//			printf ("%I64d %d : %d %d\n", x, y, cur,
+//			was[y]);
+
 			was[y] = 1;
 			all.insert (mp (x + (ll)360 * t[y], y));
 		}
+
 		cout << "Case #" << it << ": " << ans;
 		cout << endl;
-		fprintf (stderr, "%d / %d = %.2f | %.2f\n", it, tt, (double)clock () / CLOCKS_PER_SEC, ((double)clock () / it * tt) / CLOCKS_PER_SEC);
+
+		log_fs << "Case #" << it << ": " << ans << endl << endl << endl;
+
+		fprintf (stderr, "%d / %d = %.2f | %.2f\n", 
+			it, tt, (double)clock () / CLOCKS_PER_SEC,
+			((double)clock () / it * tt) / CLOCKS_PER_SEC);
 	}
+
+	log_fs.close();
+
 	return 0;
 }
