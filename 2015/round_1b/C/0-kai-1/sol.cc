@@ -18,7 +18,7 @@ using std::endl;
 
 // ====== Defines ======
 
-//#define DBG
+#define DBG
 
 // ------ Defines ------
 
@@ -33,7 +33,10 @@ using std::endl;
 
 std::fstream log_fs;
 
-int array[100];
+int N;
+int D;
+int H;
+int M;
 
 // ------ Global Variables ------
 
@@ -63,6 +66,12 @@ int handle_input()
 	log_fs << ">>>>>>handle_input()" << endl;
 #endif
 
+        cin >> N >> D >> H >> M;
+
+        for (int iii = 0; iii < N; iii++) {
+
+        }
+
 #ifdef DBG
 	log_fs << "<<<<<<handle_input()" << endl << endl;
 #endif
@@ -81,16 +90,13 @@ int init_per_case()
         return 0;
 }
 
+
+
 int run()
 {
 #ifdef DBG
 	log_fs << ">>>>>>run()" << endl;
 #endif
-
-        for (int iii = 0; iii < 100; iii++) 
-        	array[iii] = 1;
-
-        print_array(array, "array", 100);
 
 	int ans = 0;
 
