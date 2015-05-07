@@ -1,0 +1,6 @@
+>>main()
+
+>>>>init_only_once()
+<<<<init_only_once()
+
+<<main()
