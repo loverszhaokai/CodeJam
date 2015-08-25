@@ -1,4 +1,5 @@
 #include <climits>
+#include <cmath>
 #include <cstring>
 #include <cstdio>
 #include <cstdlib>
@@ -7,14 +8,19 @@
 #include <fstream>
 #include <iostream>
 #include <map>
+#include <stack>
 #include <string>
 #include <vector>
 
+#include "utils.h"
 
 using std::cin;
 using std::cout;
 using std::endl;
-
+using std::map;
+using std::stack;
+using std::string;
+using std::vector;
 
 // ====== Defines ======
 
@@ -31,118 +37,121 @@ using std::endl;
 // ====== Global Variables ======
 
 #ifdef DBG
-std::fstream log_fs;
+std::fstream logs;
 #endif
 
-int A,B,K;
+
 
 // ------ Global Variables ------
 
 
-// ====== Function declarations ======
-
-
-// ------ Function declarations ------
-
-
-int init_only_once()
+void init_only_once()
 {
 #ifdef DBG
-	log_fs << ">>>>init_only_once()" << endl;
-	log_fs << "<<<<init_only_once()" << endl << endl;
+	logs << ">>>>" << __FUNCTION__ << "()" << endl;
 #endif
 
-        return 0;
+
+
+#ifdef DBG
+	logs << "<<<<" << __FUNCTION__ << "()" << endl << endl;;
+#endif
 }
 
-int handle_input()
+void clear_global_variables()
 {
 #ifdef DBG
-	log_fs << ">>>>>>handle_input()" << endl;
+	logs << ">>>>" << __FUNCTION__ << "()" << endl;
 #endif
 
-	cin >> A >> B >> K;
+
 
 #ifdef DBG
-	log_fs << "<<<<<<handle_input()" << endl << endl;
+	logs << "<<<<" << __FUNCTION__ << "()" << endl << endl;;
 #endif
-        return 0;
 }
 
-int init_per_case()
+void handle_input()
 {
 #ifdef DBG
-	log_fs << ">>>>>>init_per_case()" << endl;
+	logs << ">>>>>>" << __FUNCTION__ << "()" << endl;
 #endif
 
+
+
 #ifdef DBG
-	log_fs << "<<<<<<init_per_case()" << endl << endl;
+	logs << "<<<<<<" << __FUNCTION__ << "()" << endl << endl;;
 #endif
-        return 0;
 }
 
-int run()
+
+void init_per_case()
 {
 #ifdef DBG
-	log_fs << ">>>>>>run()" << endl;
+	logs << ">>>>>>" << __FUNCTION__ << "()" << endl;
+#endif
+
+
+
+#ifdef DBG
+	logs << "<<<<<<" << __FUNCTION__ << "()" << endl << endl;;
+#endif
+}
+
+
+long long run()
+{
+#ifdef DBG
+	logs << ">>>>>>" << __FUNCTION__ << "()" << endl;
 #endif
 
 	int ans = 0;
 
-	for (int iii = 0; iii < A; iii++) {
-		for (int jjj = 0; jjj < B; jjj++) {
-#ifdef DBG
-                        log_fs << iii << "&" << jjj << "=" << (iii & jjj) << endl;
-#endif
-			if ((iii & jjj) < K) {
-#ifdef DBG
-	                        log_fs << "K=" << K << "    " << iii << "&" << jjj << "=" << (iii & jjj) << endl;
-#endif
-				ans++;
-                        }
-                }
-        }
+
 
 #ifdef DBG
-	log_fs << "<<<<<<run() = " << ans << endl << endl;
+	logs << "<<<<<<" << __FUNCTION__ << "() return " << ans << endl << endl;;
 #endif
 	return ans;
 }
 
+
 int main()
 {
 #ifdef DBG
-        log_fs.open("log.txt", std::fstream::out);
-	log_fs << ">>main()" << endl << endl;
+	logs.open("log.txt", std::fstream::out);
+	logs << ">>" << __FUNCTION__ << "()" << endl << endl;
 #endif
 
-        init_only_once();
+	init_only_once();
 
-        int total_cases_count = 0;
-        cin >> total_cases_count;
+	int total_cases_count = 0;
+	cin >> total_cases_count;
 
-        int run_ret = 0;
+	long long run_ret = 0;
 
-        for (int tt = 1; tt <= total_cases_count; tt++) {
+	for (int tt = 1; tt <= total_cases_count; tt++) {
 
-                handle_input();
+		clear_global_variables();
 
-                init_per_case();
+		handle_input();
 
-                run_ret = run();
+		init_per_case();
 
-                cout << "Case #" << tt << ": " << run_ret << endl;
+		run_ret = run();
+
+		cout << "Case #" << tt << ": " << run_ret << endl;
 
 #ifdef DBG
-		log_fs << "Case #" << tt << ": " << run_ret << endl;
+		logs << "Case #" << tt << ": " << run_ret << endl;
 #endif
-        }
+	}
 
 
 #ifdef DBG
-	log_fs << "<<main()" << endl;
-	log_fs.close();
+	logs << "<<main()" << endl;
+	logs.close();
 #endif
-        return 0;
+	return 0;
 }
 
