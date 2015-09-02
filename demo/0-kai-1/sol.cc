@@ -22,107 +22,35 @@ using std::stack;
 using std::string;
 using std::vector;
 
-// ====== Defines ======
-
-
-// ------ Defines ------
-
-
-// ====== Types ======
-
-
-// ------ Types ------
-
-
-// ====== Global Variables ======
-
-#ifdef DBG
-std::fstream logs;
-#endif
-
-
-
-// ------ Global Variables ------
-
 
 void init_only_once()
 {
-#ifdef DBG
-	logs << ">>>>" << __FUNCTION__ << "()" << endl;
-#endif
-
-
-
-#ifdef DBG
-	logs << "<<<<" << __FUNCTION__ << "()" << endl << endl;;
-#endif
 }
 
 void clear_global_variables()
 {
-#ifdef DBG
-	logs << ">>>>" << __FUNCTION__ << "()" << endl;
-#endif
-
-
-
-#ifdef DBG
-	logs << "<<<<" << __FUNCTION__ << "()" << endl << endl;;
-#endif
 }
 
 void handle_input()
 {
-#ifdef DBG
-	logs << ">>>>>>" << __FUNCTION__ << "()" << endl;
-#endif
-
-
-
-#ifdef DBG
-	logs << "<<<<<<" << __FUNCTION__ << "()" << endl << endl;;
-#endif
 }
-
 
 void init_per_case()
 {
-#ifdef DBG
-	logs << ">>>>>>" << __FUNCTION__ << "()" << endl;
-#endif
-
-
-
-#ifdef DBG
-	logs << "<<<<<<" << __FUNCTION__ << "()" << endl << endl;;
-#endif
 }
 
 
 long long run()
 {
-#ifdef DBG
-	logs << ">>>>>>" << __FUNCTION__ << "()" << endl;
-#endif
-
-	int ans = 0;
+	long long ans = 0;
 
 
 
-#ifdef DBG
-	logs << "<<<<<<" << __FUNCTION__ << "() return " << ans << endl << endl;;
-#endif
 	return ans;
 }
 
-
 int main()
 {
-#ifdef DBG
-	logs.open("log.txt", std::fstream::out);
-	logs << ">>" << __FUNCTION__ << "()" << endl << endl;
-#endif
-
 	init_only_once();
 
 	int total_cases_count = 0;
@@ -142,16 +70,8 @@ int main()
 
 		cout << "Case #" << tt << ": " << run_ret << endl;
 
-#ifdef DBG
-		logs << "Case #" << tt << ": " << run_ret << endl;
-#endif
 	}
 
-
-#ifdef DBG
-	logs << "<<main()" << endl;
-	logs.close();
-#endif
 	return 0;
 }
 
