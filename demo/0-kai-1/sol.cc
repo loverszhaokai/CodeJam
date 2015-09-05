@@ -22,23 +22,16 @@ using std::stack;
 using std::string;
 using std::vector;
 
+void init_only_once();
+void clear_global_variables();
+void init_per_case();
 
-void init_only_once()
-{
-}
 
-void clear_global_variables()
-{
-}
+
 
 void handle_input()
 {
 }
-
-void init_per_case()
-{
-}
-
 
 long long run()
 {
@@ -75,3 +68,14 @@ int main()
 	return 0;
 }
 
+void init_only_once()
+{
+}
+
+void clear_global_variables()
+{
+}
+
+void init_per_case()
+{
+}
