@@ -10,8 +10,11 @@
 #include <iostream>
 #include <list>
 #include <map>
+#include <queue>
+#include <set>
 #include <stack>
 #include <string>
+#include <unordered_map>
 #include <utility>
 #include <vector>
 
@@ -21,30 +24,48 @@ using std::cin;
 using std::cout;
 using std::endl;
 using std::list;
+using std::make_pair;
 using std::map;
 using std::pair;
-using std::make_pair;
+using std::queue;
+using std::set;
 using std::stack;
 using std::string;
+using std::unordered_map;
 using std::vector;
 
 void init_only_once();
 void clear_global_variables();
 void init_per_case();
 
+struct pairhash {
+    public:
+        template <typename T, typename U>
+            std::size_t operator()(const std::pair<T, U> &x) const
+            {
+                return std::hash<T>()(x.first) ^ std::hash<U>()(x.second);
+            }
+};
 
 #define N_MAX_SIZE 101
 
 int S, R, C;
 vector<pair<int, char> > X;
 
-int matrix[N_MAX_SIZE][N_MAX_SIZE];
+// The positions of eaten food
+set<pair<int, int> > eaten_foods;
 
+typedef pair<int, int> Position;
 
+#define MP make_pair
+
+/*
 struct Position {
 
 	Position()
-	{}
+	{
+		r = l = 0;
+	}
 
 	Position(int _r, int _l)
 	{
@@ -52,13 +73,9 @@ struct Position {
 		l = _l;
 	}
 
-	bool operator == (const Position &rhs)
-	{
-		return this->r == rhs.r && this->l == rhs.l;
-	}
-	
 	int r, l;
 };
+*/
 
 enum Direction { RIGHT, DOWN, LEFT, UP };
 
@@ -68,36 +85,39 @@ public:
 
 Snake()
 {
-	children.push_front(Position(1, 1));
+	len = 1;
+	head = MP(1, 1);
+	children[head] = 1;
+	tq.push(head);
 }
 
 Position get_new_head(Direction d)
 {
-	Position new_head(children.front().r, children.front().l);
+	Position new_head = MP(head.first, head.second);
 
 	switch (d) {
 		case RIGHT:
-			new_head.l++;
-			if (new_head.l > C)
-				new_head.l = 1;
+			new_head.second++;
+			if (new_head.second > C)
+				new_head.second = 1;
 			break;
 
 		case DOWN:
-			new_head.r++;
-			if (new_head.r > R)
-				new_head.r = 1;
+			new_head.first++;
+			if (new_head.first > R)
+				new_head.first = 1;
 			break;
 
 		case LEFT:
-			new_head.l--;
-			if (new_head.l < 1)
-				new_head.l = C;
+			new_head.second--;
+			if (new_head.second < 1)
+				new_head.second = C;
 			break;
 
 		case UP:
-			new_head.r--;
-			if (new_head.r < 1)
-				new_head.r = R;
+			new_head.first--;
+			if (new_head.first < 1)
+				new_head.first = R;
 
 			break;
 		default:
@@ -112,47 +132,45 @@ bool move_next(Direction d)
 {
 	Position new_head = get_new_head(d);
 
-	if (matrix[new_head.r][new_head.l]) {
+	if ((new_head.first + new_head.second) % 2 != 0 &&
+		eaten_foods.find(make_pair(new_head.first, new_head.second)) == eaten_foods.end()) {
+
+		len++;
 
 		// Eat food, so do not delete the oldest child
-		matrix[new_head.r][new_head.l] = 0;
-		children.push_front(new_head);
+		eaten_foods.insert(make_pair(new_head.first, new_head.second));
 
 	} else {
 
 		// Delete the oldest child
-		children.pop_back();
-		if (is_die(new_head)) {
+		children[tq.front()] = 0;
+		tq.pop();
+
+		if (children[new_head] == 1) {
 			// Just to increase the length() of children
-			children.push_front(new_head);
 			return false;
 		}
-		children.push_front(new_head);
 
 	}
+
+	children[new_head] = 1;
+	head = new_head;
+	tq.push(new_head);
 
 	return true;
 }
 
-bool is_die(const Position &new_head)
-{
-	if (std::find(children.begin(), children.end(), new_head) != children.end())
-		return true;
-	return false;
-}
-
 int length()
 {
-	return children.size();
+	return len;
 }
 
 void print()
 {
 	cout << "\tSnake children:" << endl;
 
-	list<Position>::iterator it = children.begin();
-	while (it != children.end()) {
-		cout << "(" << it->r << "," << it->l << ") ";
+	for (auto it = children.begin(); it != children.end(); it++) {
+		cout << "(" << it->first.first << "," << it->first.second << ") ";
 		it++;
 	}
 	cout << endl;
@@ -160,7 +178,10 @@ void print()
 }
 
 private:
-	list<Position> children;
+	int len;
+	Position head;
+	unordered_map<Position, int, pairhash> children;
+	queue<Position> tq;
 };
 
 void handle_input()
@@ -281,12 +302,10 @@ void init_only_once()
 void clear_global_variables()
 {
 	X.clear();
+	eaten_foods.clear();
 }
 
 void init_per_case()
 {
-	for (int iii = 1; iii <= R; iii++)
-		for (int jjj = 1; jjj <=C; jjj++)
-			matrix[iii][jjj] = (iii + jjj) % 2;
 }
 
